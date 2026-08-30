@@ -1,6 +1,6 @@
 # Scope
 
-Learning beginner-level Bash by building a data extraction
+Learning beginner-level Bash by building a data extraction script
 
 # Target audience
 
@@ -19,6 +19,6 @@ Before building anything, get hands-on with the syntax. This video covers the ba
 - A *field* is separated by whitespace between two strings.
 - Bash scripts don't need a specific file extension. `.sh`, `.bash`, or no extension at all — it works as long as the file has a `shebang` (`#!/bin/bash`) on the first line and the execute permission set.
 
-## Projects
+## Project
 
 - **Data Extraction** — extract data from a license log file into a CSV file.
