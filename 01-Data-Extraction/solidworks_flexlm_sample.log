@@ -1,0 +1,943 @@
+06:00:00 (lmgrd) FlexNet Licensing (v11.19.6.0 build 297674 x64_lsb) started on sw-lic-srv01 (linux) (8/20/2026)
+06:00:00 (lmgrd) Copyright (c) 1988-2025 Flexera. All Rights Reserved.
+06:00:00 (lmgrd) World Wide Web:  http://www.flexera.com
+06:00:00 (lmgrd) License file(s): /opt/flexlm/licenses/solidworks_server.lic
+06:00:00 (lmgrd) lmgrd tcp-port 27000
+06:00:00 (lmgrd) Starting vendor daemons ...
+06:00:01 (lmgrd) Started sw_d (internet tcp_port 27023 pid 21270)
+06:00:01 (sw_d) FlexNet Licensing version v11.19.6.0 build 297674 x64_lsb
+06:00:01 (sw_d) Server started on sw-lic-srv01 for: SolidWorks_Standard, SolidWorks_Professional, SolidWorks_Premium, SolidWorks_CAM_Standard, SolidWorks_CAM_Professional, SolidWorks_Simulation_Standard, SolidWorks_Simulation_Professional, SolidWorks_Simulation_Premium, SolidWorks_Flow_Simulation, SolidWorks_Electrical_Professional, SolidWorks_Composer, SolidWorks_Inspection_Professional, SolidWorks_Visualize_Professional, SolidWorks_MBD, SolidWorks_Costing, SolidWorks_PDM_CAD_Editor, SolidWorks_Routing, eDrawings_Professional
+06:00:04 (lmgrd) All vendor daemons are up
+06:00:15 (sw_d) TIMESTAMP 08/20 06:00:15
+06:00:19 (sw_d) QUEUED: "SolidWorks_Simulation_Standard" kbrown@WKS-028
+06:01:01 (lmgrd) Ignoring duplicate vendor daemon sw_d
+06:01:01 (lmgrd) All vendor daemons are up
+06:01:23 (sw_d) TIMESTAMP 08/20 06:01:23
+06:01:27 (sw_d) OUT: "SolidWorks_Inspection_Professional" cjones@WKS-023 (v13.6) (sw-lic-srv01/27000 718), start 06:01:27
+06:02:42 (sw_d) TIMESTAMP 08/20 06:02:42
+06:02:50 (sw_d) OUT: "SolidWorks_Visualize_Professional" vsingh@WKS-036 (v1.7) (sw-lic-srv01/27000 400), start 06:02:50
+06:03:05 (sw_d) TIMESTAMP 08/20 06:03:05
+06:03:13 (sw_d) OUT: "SolidWorks_Simulation_Premium" ftaylor@WKS-019 (v3.2) (sw-lic-srv01/27000 181), start 06:03:13
+06:04:13 (sw_d) TIMESTAMP 08/20 06:04:13
+06:04:16 (sw_d) OUT: "SolidWorks_Inspection_Professional" dwilson@WKS-024 (v13.6) (sw-lic-srv01/27000 463), start 06:04:16
+06:04:52 (sw_d) IN: "SolidWorks_Visualize_Professional" vsingh@WKS-036
+06:05:47 (sw_d) TIMESTAMP 08/20 06:05:47
+06:05:55 (sw_d) OUT: "eDrawings_Professional" tlee@BLD-05 (v15.7) (sw-lic-srv01/27000 432), start 06:05:55
+06:06:14 (sw_d) SolidWorks_Visualize_Professional: reserving 1 license(s) for "group" GROUP engineering
+06:07:41 (sw_d) TIMESTAMP 08/20 06:07:41
+06:08:56 (sw_d) TIMESTAMP 08/20 06:08:56
+06:08:59 (sw_d) OUT: "SolidWorks_Costing" dwilson@WKS-017 (v17.2) (sw-lic-srv01/27000 242), start 06:08:59
+06:09:42 (sw_d) TIMESTAMP 08/20 06:09:42
+06:09:47 (sw_d) QUEUED: "SolidWorks_MBD" nverma@WKS-038
+06:10:19 (sw_d) IN: "SolidWorks_Inspection_Professional" cjones@WKS-023
+06:10:53 (sw_d) DENIED: "SolidWorks_MBD" akumar@WKS-005 (No such feature exists)
+06:12:08 (sw_d) TIMESTAMP 08/20 06:12:08
+06:12:15 (sw_d) OUT: "eDrawings_Professional" cjones@WKS-001 (v15.7) (sw-lic-srv01/27000 796), start 06:12:15
+06:12:59 (sw_d) TIMESTAMP 08/20 06:12:59
+06:13:04 (sw_d) QUEUED: "SolidWorks_Composer" vsingh@WKS-019
+06:13:19 (lmgrd) Ignoring duplicate vendor daemon sw_d
+06:13:19 (lmgrd) All vendor daemons are up
+06:13:56 (sw_d) IN: "SolidWorks_Simulation_Premium" ftaylor@WKS-019
+06:14:30 (sw_d) TIMESTAMP 08/20 06:14:30
+06:14:36 (sw_d) OUT: "SolidWorks_Simulation_Standard" mchen@WKS-034 (v17.9) (sw-lic-srv01/27000 100), start 06:14:36
+06:14:51 (sw_d) TIMESTAMP 08/20 06:14:51
+06:14:53 (sw_d) OUT: "SolidWorks_Inspection_Professional" nverma@WKS-020 (v13.6) (sw-lic-srv01/27000 345), start 06:14:53
+06:14:53 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+06:15:10 (sw_d) TIMESTAMP 08/20 06:15:10
+06:15:18 (sw_d) QUEUED: "SolidWorks_Premium" ftaylor@WKS-035
+06:16:33 (lmgrd) Ignoring duplicate vendor daemon sw_d
+06:16:33 (lmgrd) All vendor daemons are up
+06:17:55 (sw_d) TIMESTAMP 08/20 06:17:55
+06:19:14 (sw_d) TIMESTAMP 08/20 06:19:14
+06:19:19 (sw_d) QUEUED: "SolidWorks_Simulation_Professional" kbrown@WKS-020
+06:20:40 (sw_d) IN: "eDrawings_Professional" tlee@BLD-05
+06:21:36 (sw_d) TIMESTAMP 08/20 06:21:36
+06:21:38 (sw_d) OUT: "eDrawings_Professional" tlee@WKS-038 (v15.7) (sw-lic-srv01/27000 325), start 06:21:38
+06:22:16 (sw_d) TIMESTAMP 08/20 06:22:16
+06:22:22 (sw_d) OUT: "SolidWorks_Professional" cjones@WKS-022 (v1.6) (sw-lic-srv01/27000 172), start 06:22:22
+06:23:34 (sw_d) TIMESTAMP 08/20 06:23:34
+06:23:39 (sw_d) OUT: "SolidWorks_CAM_Professional" kbrown@WKS-037 (v19.4) (sw-lic-srv01/27000 690), start 06:23:39
+06:24:41 (sw_d) TIMESTAMP 08/20 06:24:41
+06:24:46 (sw_d) OUT: "SolidWorks_CAM_Standard" jsmith@WKS-028 (v6.6) (sw-lic-srv01/27000 462), start 06:24:46
+06:25:07 (sw_d) DENIED: "SolidWorks_CAM_Standard" pramesh@WKS-026 (License server system does not support this feature)
+06:25:50 (sw_d) TIMESTAMP 08/20 06:25:50
+06:25:53 (sw_d) OUT: "eDrawings_Professional" hmoore@WKS-009 (v15.7) (sw-lic-srv01/27000 532), start 06:25:53
+06:26:39 (sw_d) TIMESTAMP 08/20 06:26:39
+06:27:56 (sw_d) TIMESTAMP 08/20 06:27:56
+06:28:04 (sw_d) OUT: "eDrawings_Professional" cjones@WKS-001 (v15.7) (sw-lic-srv01/27000 195), start 06:28:04
+06:29:11 (sw_d) IN: "SolidWorks_Simulation_Standard" mchen@WKS-034
+06:29:11 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+06:29:42 (sw_d) TIMESTAMP 08/20 06:29:42
+06:29:47 (sw_d) OUT: "SolidWorks_Visualize_Professional" rpatel@WKS-030 (v1.7) (sw-lic-srv01/27000 392), start 06:29:47
+06:30:15 (sw_d) TIMESTAMP 08/20 06:30:15
+06:30:21 (sw_d) OUT: "SolidWorks_Simulation_Professional" pramesh@WKS-038 (v23.3) (sw-lic-srv01/27000 853), start 06:30:21
+06:30:41 (sw_d) TIMESTAMP 08/20 06:30:41
+06:30:43 (sw_d) OUT: "SolidWorks_PDM_CAD_Editor" mchen@WKS-034 (v14.6) (sw-lic-srv01/27000 261), start 06:30:43
+06:31:19 (sw_d) TIMESTAMP 08/20 06:31:19
+06:31:21 (sw_d) OUT: "SolidWorks_Premium" jsmith@WKS-016 (v7.9) (sw-lic-srv01/27000 513), start 06:31:21
+06:31:46 (sw_d) IN: "eDrawings_Professional" cjones@WKS-001
+06:32:31 (sw_d) TIMESTAMP 08/20 06:32:31
+06:32:34 (sw_d) OUT: "SolidWorks_Composer" tlee@WKS-017 (v6.5) (sw-lic-srv01/27000 505), start 06:32:34
+06:33:29 (sw_d) TIMESTAMP 08/20 06:33:29
+06:34:42 (sw_d) DENIED: "SolidWorks_CAM_Standard" vsingh@WKS-035 (Licensed number of users already reached)
+06:35:13 (lmgrd) Ignoring duplicate vendor daemon sw_d
+06:35:13 (lmgrd) All vendor daemons are up
+06:36:11 (sw_d) TIMESTAMP 08/20 06:36:11
+06:36:15 (sw_d) OUT: "SolidWorks_Costing" cjones@WKS-035 (v17.2) (sw-lic-srv01/27000 820), start 06:36:15
+06:37:38 (sw_d) TIMESTAMP 08/20 06:37:38
+06:37:40 (sw_d) OUT: "SolidWorks_CAM_Standard" nverma@WKS-009 (v6.6) (sw-lic-srv01/27000 370), start 06:37:40
+06:38:07 (sw_d) TIMESTAMP 08/20 06:38:07
+06:38:14 (sw_d) OUT: "SolidWorks_Simulation_Professional" kbrown@WKS-022 (v23.3) (sw-lic-srv01/27000 308), start 06:38:14
+06:39:23 (sw_d) TIMESTAMP 08/20 06:39:23
+06:39:31 (sw_d) OUT: "SolidWorks_Professional" vsingh@BLD-02 (v1.6) (sw-lic-srv01/27000 533), start 06:39:31
+06:39:39 (sw_d) TIMESTAMP 08/20 06:39:39
+06:39:46 (sw_d) OUT: "SolidWorks_CAM_Professional" jsmith@WKS-017 (v19.4) (sw-lic-srv01/27000 265), start 06:39:46
+06:40:55 (sw_d) IN: "SolidWorks_Inspection_Professional" nverma@WKS-020
+06:40:55 (sw_d) TCP_PORT should not be used in license file when using services. Ignoring
+06:42:14 (sw_d) TIMESTAMP 08/20 06:42:14
+06:42:19 (sw_d) OUT: "SolidWorks_Inspection_Professional" akumar@WKS-036 (v13.6) (sw-lic-srv01/27000 251), start 06:42:19
+06:42:19 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+06:43:06 (sw_d) TIMESTAMP 08/20 06:43:06
+06:43:13 (sw_d) OUT: "SolidWorks_Professional" nverma@WKS-023 (v1.6) (sw-lic-srv01/27000 315), start 06:43:13
+06:44:13 (sw_d) SolidWorks_MBD: reserving 2 license(s) for "group" GROUP engineering
+06:44:48 (lmgrd) Ignoring duplicate vendor daemon sw_d
+06:44:48 (lmgrd) All vendor daemons are up
+06:44:59 (sw_d) TIMESTAMP 08/20 06:44:59
+06:45:06 (sw_d) OUT: "SolidWorks_Composer" ftaylor@WKS-027 (v6.5) (sw-lic-srv01/27000 921), start 06:45:06
+06:45:41 (sw_d) SolidWorks_CAM_Standard: reserving 1 license(s) for "group" GROUP engineering
+06:46:16 (sw_d) TIMESTAMP 08/20 06:46:16
+06:46:24 (sw_d) OUT: "SolidWorks_Costing" lwang@WKS-020 (v17.2) (sw-lic-srv01/27000 940), start 06:46:24
+06:46:42 (sw_d) DENIED: "SolidWorks_Visualize_Professional" lwang@WKS-018 (Licensed number of users already reached)
+06:47:58 (sw_d) TIMESTAMP 08/20 06:47:58
+06:48:02 (sw_d) OUT: "eDrawings_Professional" lwang@WKS-002 (v15.7) (sw-lic-srv01/27000 218), start 06:48:02
+06:48:17 (sw_d) TIMESTAMP 08/20 06:48:17
+06:48:21 (sw_d) OUT: "SolidWorks_MBD" lwang@BLD-08 (v6.0) (sw-lic-srv01/27000 905), start 06:48:21
+06:48:45 (sw_d) TIMESTAMP 08/20 06:48:45
+06:48:50 (sw_d) OUT: "SolidWorks_Simulation_Professional" rpatel@WKS-003 (v23.3) (sw-lic-srv01/27000 825), start 06:48:50
+06:50:13 (sw_d) DENIED: "SolidWorks_Simulation_Professional" lwang@WKS-028 (Licensed number of users already reached)
+06:50:36 (sw_d) TIMESTAMP 08/20 06:50:36
+06:50:43 (sw_d) QUEUED: "SolidWorks_Electrical_Professional" mchen@WKS-020
+06:51:49 (sw_d) DENIED: "eDrawings_Professional" dwilson@WKS-013 (No such feature exists)
+06:53:12 (sw_d) TIMESTAMP 08/20 06:53:12
+06:53:16 (sw_d) OUT: "eDrawings_Professional" cjones@WKS-001 (v15.7) (sw-lic-srv01/27000 411), start 06:53:16
+06:54:45 (sw_d) DENIED: "SolidWorks_Composer" hmoore@WKS-029 (No such feature exists)
+06:56:00 (sw_d) SolidWorks_Simulation_Standard: reserving 2 license(s) for "group" GROUP engineering
+06:57:20 (sw_d) DENIED: "SolidWorks_Composer" vsingh@WKS-016 (License server system does not support this feature)
+06:57:20 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+06:57:52 (sw_d) TIMESTAMP 08/20 06:57:52
+06:58:00 (sw_d) OUT: "SolidWorks_Professional" tlee@WKS-031 (v1.6) (sw-lic-srv01/27000 725), start 06:58:00
+06:59:08 (sw_d) TIMESTAMP 08/20 06:59:08
+07:00:18 (sw_d) TIMESTAMP 08/20 07:00:18
+07:00:26 (sw_d) OUT: "SolidWorks_CAM_Professional" jsmith@BLD-06 (v19.4) (sw-lic-srv01/27000 105), start 07:00:26
+07:01:06 (sw_d) TIMESTAMP 08/20 07:01:06
+07:01:09 (sw_d) OUT: "SolidWorks_Routing" hmoore@WKS-004 (v6.5) (sw-lic-srv01/27000 670), start 07:01:09
+07:01:41 (sw_d) SolidWorks_Routing: reserving 2 license(s) for "group" GROUP engineering
+07:03:00 (sw_d) IN: "SolidWorks_CAM_Professional" jsmith@WKS-017
+07:04:15 (sw_d) IN: "eDrawings_Professional" cjones@WKS-001
+07:05:36 (sw_d) IN: "eDrawings_Professional" hmoore@WKS-009
+07:05:56 (sw_d) TIMESTAMP 08/20 07:05:56
+07:06:00 (sw_d) QUEUED: "SolidWorks_Simulation_Premium" rpatel@WKS-022
+07:06:29 (sw_d) TIMESTAMP 08/20 07:06:29
+07:06:32 (sw_d) OUT: "SolidWorks_Visualize_Professional" kbrown@WKS-010 (v1.7) (sw-lic-srv01/27000 823), start 07:06:32
+07:07:31 (sw_d) TIMESTAMP 08/20 07:07:31
+07:07:39 (sw_d) OUT: "SolidWorks_Costing" sgupta@WKS-004 (v17.2) (sw-lic-srv01/27000 311), start 07:07:39
+07:09:08 (lmgrd) Ignoring duplicate vendor daemon sw_d
+07:09:08 (lmgrd) All vendor daemons are up
+07:10:16 (sw_d) TIMESTAMP 08/20 07:10:16
+07:10:24 (sw_d) OUT: "SolidWorks_Inspection_Professional" rpatel@WKS-025 (v13.6) (sw-lic-srv01/27000 973), start 07:10:24
+07:11:48 (sw_d) SolidWorks_Simulation_Premium: reserving 1 license(s) for "group" GROUP engineering
+07:12:58 (sw_d) IN: "SolidWorks_Costing" cjones@WKS-035
+07:13:34 (sw_d) SolidWorks_CAM_Professional: reserving 2 license(s) for "group" GROUP engineering
+07:13:34 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+07:14:39 (sw_d) IN: "SolidWorks_Simulation_Professional" rpatel@WKS-003
+07:15:43 (sw_d) TIMESTAMP 08/20 07:15:43
+07:15:48 (sw_d) OUT: "SolidWorks_Costing" dwilson@WKS-004 (v17.2) (sw-lic-srv01/27000 366), start 07:15:48
+07:16:53 (sw_d) TIMESTAMP 08/20 07:16:53
+07:17:01 (sw_d) OUT: "SolidWorks_Visualize_Professional" rpatel@WKS-027 (v1.7) (sw-lic-srv01/27000 358), start 07:17:01
+07:17:11 (sw_d) TIMESTAMP 08/20 07:17:11
+07:17:18 (sw_d) QUEUED: "SolidWorks_Professional" lwang@WKS-015
+07:17:36 (lmgrd) Ignoring duplicate vendor daemon sw_d
+07:17:36 (lmgrd) All vendor daemons are up
+07:18:07 (sw_d) TIMESTAMP 08/20 07:18:07
+07:18:10 (sw_d) OUT: "SolidWorks_PDM_CAD_Editor" jsmith@WKS-008 (v14.6) (sw-lic-srv01/27000 677), start 07:18:10
+07:19:10 (sw_d) TIMESTAMP 08/20 07:19:10
+07:19:12 (sw_d) OUT: "SolidWorks_CAM_Standard" ftaylor@WKS-011 (v6.6) (sw-lic-srv01/27000 418), start 07:19:12
+07:19:12 (sw_d) TCP_PORT should not be used in license file when using services. Ignoring
+07:20:40 (sw_d) DENIED: "SolidWorks_Visualize_Professional" sgupta@BLD-07 (Licensed number of users already reached)
+07:21:08 (sw_d) DENIED: "SolidWorks_Electrical_Professional" cjones@BLD-05 (License server system does not support this feature)
+07:22:07 (sw_d) IN: "SolidWorks_Professional" tlee@WKS-031
+07:23:26 (sw_d) DENIED: "SolidWorks_Standard" cjones@WKS-027 (No such feature exists)
+07:24:27 (sw_d) DENIED: "SolidWorks_Costing" kbrown@WKS-010 (No such feature exists)
+07:25:16 (sw_d) DENIED: "eDrawings_Professional" ftaylor@WKS-031 (No such feature exists)
+07:26:12 (sw_d) TIMESTAMP 08/20 07:26:12
+07:27:19 (sw_d) TIMESTAMP 08/20 07:27:19
+07:27:24 (sw_d) OUT: "SolidWorks_Costing" akumar@BLD-01 (v17.2) (sw-lic-srv01/27000 784), start 07:27:24
+07:27:24 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+07:28:42 (sw_d) TIMESTAMP 08/20 07:28:42
+07:29:17 (sw_d) TIMESTAMP 08/20 07:29:17
+07:29:24 (sw_d) OUT: "SolidWorks_Flow_Simulation" lwang@WKS-018 (v11.5) (sw-lic-srv01/27000 710), start 07:29:24
+07:29:40 (sw_d) IN: "SolidWorks_CAM_Standard" nverma@WKS-009
+07:30:47 (sw_d) IN: "SolidWorks_Inspection_Professional" rpatel@WKS-025
+07:32:04 (sw_d) IN: "SolidWorks_Inspection_Professional" dwilson@WKS-024
+07:32:47 (sw_d) IN: "SolidWorks_Simulation_Professional" pramesh@WKS-038
+07:34:02 (sw_d) IN: "SolidWorks_Professional" vsingh@BLD-02
+07:34:56 (sw_d) TIMESTAMP 08/20 07:34:56
+07:34:59 (sw_d) OUT: "SolidWorks_Costing" rpatel@WKS-020 (v17.2) (sw-lic-srv01/27000 357), start 07:34:59
+07:35:51 (sw_d) TIMESTAMP 08/20 07:35:51
+07:35:54 (sw_d) OUT: "eDrawings_Professional" ftaylor@BLD-06 (v15.7) (sw-lic-srv01/27000 289), start 07:35:54
+07:36:42 (sw_d) TIMESTAMP 08/20 07:36:42
+07:36:44 (sw_d) QUEUED: "SolidWorks_Routing" akumar@WKS-019
+07:37:25 (sw_d) TIMESTAMP 08/20 07:37:25
+07:37:28 (sw_d) OUT: "SolidWorks_Electrical_Professional" pramesh@BLD-07 (v1.7) (sw-lic-srv01/27000 646), start 07:37:28
+07:37:49 (sw_d) IN: "SolidWorks_Visualize_Professional" rpatel@WKS-027
+07:38:17 (sw_d) TIMESTAMP 08/20 07:38:17
+07:39:33 (sw_d) IN: "SolidWorks_CAM_Standard" jsmith@WKS-028
+07:40:43 (sw_d) TIMESTAMP 08/20 07:40:43
+07:40:49 (sw_d) OUT: "SolidWorks_Premium" sgupta@WKS-032 (v7.9) (sw-lic-srv01/27000 175), start 07:40:49
+07:41:23 (sw_d) SolidWorks_Electrical_Professional: reserving 1 license(s) for "group" GROUP engineering
+07:41:23 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+07:42:44 (sw_d) TIMESTAMP 08/20 07:42:44
+07:42:49 (sw_d) QUEUED: "SolidWorks_Simulation_Premium" ftaylor@WKS-034
+07:43:42 (sw_d) TIMESTAMP 08/20 07:43:42
+07:45:09 (sw_d) DENIED: "SolidWorks_CAM_Standard" ftaylor@WKS-014 (License server system does not support this feature)
+07:45:32 (sw_d) TIMESTAMP 08/20 07:45:32
+07:45:34 (sw_d) OUT: "SolidWorks_Simulation_Standard" mchen@WKS-005 (v17.9) (sw-lic-srv01/27000 260), start 07:45:34
+07:46:42 (sw_d) TIMESTAMP 08/20 07:46:42
+07:46:49 (sw_d) OUT: "SolidWorks_Simulation_Premium" rpatel@BLD-07 (v3.2) (sw-lic-srv01/27000 389), start 07:46:49
+07:47:33 (sw_d) TIMESTAMP 08/20 07:47:33
+07:48:02 (sw_d) IN: "SolidWorks_Costing" dwilson@WKS-004
+07:48:28 (sw_d) TIMESTAMP 08/20 07:48:28
+07:48:35 (sw_d) OUT: "SolidWorks_Simulation_Standard" ftaylor@WKS-020 (v17.9) (sw-lic-srv01/27000 709), start 07:48:35
+07:49:05 (sw_d) IN: "SolidWorks_Simulation_Professional" kbrown@WKS-022
+07:50:24 (sw_d) IN: "SolidWorks_MBD" lwang@BLD-08
+07:51:31 (sw_d) TIMESTAMP 08/20 07:51:31
+07:51:34 (sw_d) QUEUED: "SolidWorks_Flow_Simulation" pramesh@WKS-006
+07:52:57 (sw_d) TIMESTAMP 08/20 07:52:57
+07:53:02 (sw_d) OUT: "SolidWorks_Simulation_Standard" hmoore@WKS-034 (v17.9) (sw-lic-srv01/27000 767), start 07:53:02
+07:54:31 (sw_d) IN: "SolidWorks_Simulation_Standard" mchen@WKS-005
+07:54:31 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+07:55:38 (sw_d) TIMESTAMP 08/20 07:55:38
+07:55:46 (sw_d) OUT: "SolidWorks_Composer" lwang@BLD-04 (v6.5) (sw-lic-srv01/27000 207), start 07:55:46
+07:56:53 (sw_d) DENIED: "SolidWorks_Electrical_Professional" jsmith@WKS-026 (License server system does not support this feature)
+07:56:53 (sw_d) TCP_PORT should not be used in license file when using services. Ignoring
+07:57:13 (sw_d) TIMESTAMP 08/20 07:57:13
+07:57:19 (sw_d) OUT: "SolidWorks_Composer" vsingh@WKS-026 (v6.5) (sw-lic-srv01/27000 985), start 07:57:19
+07:58:33 (sw_d) IN: "SolidWorks_PDM_CAD_Editor" mchen@WKS-034
+07:59:51 (sw_d) DENIED: "SolidWorks_Professional" tlee@WKS-018 (License server system does not support this feature)
+08:01:02 (sw_d) TIMESTAMP 08/20 08:01:02
+08:01:20 (lmgrd) Ignoring duplicate vendor daemon sw_d
+08:01:20 (lmgrd) All vendor daemons are up
+08:02:14 (sw_d) IN: "SolidWorks_PDM_CAD_Editor" jsmith@WKS-008
+08:02:57 (lmgrd) Ignoring duplicate vendor daemon sw_d
+08:02:57 (lmgrd) All vendor daemons are up
+08:03:27 (sw_d) DENIED: "SolidWorks_CAM_Professional" hmoore@BLD-07 (No such feature exists)
+08:04:35 (sw_d) SolidWorks_PDM_CAD_Editor: reserving 1 license(s) for "group" GROUP engineering
+08:05:06 (sw_d) TIMESTAMP 08/20 08:05:06
+08:05:08 (sw_d) OUT: "SolidWorks_Routing" kbrown@WKS-009 (v6.5) (sw-lic-srv01/27000 984), start 08:05:08
+08:06:06 (lmgrd) Ignoring duplicate vendor daemon sw_d
+08:06:06 (lmgrd) All vendor daemons are up
+08:06:14 (sw_d) TIMESTAMP 08/20 08:06:14
+08:06:21 (sw_d) OUT: "SolidWorks_Electrical_Professional" cjones@WKS-038 (v1.7) (sw-lic-srv01/27000 693), start 08:06:21
+08:07:33 (sw_d) IN: "SolidWorks_Costing" lwang@WKS-020
+08:08:54 (sw_d) TIMESTAMP 08/20 08:08:54
+08:08:57 (sw_d) OUT: "SolidWorks_Composer" cjones@WKS-013 (v6.5) (sw-lic-srv01/27000 814), start 08:08:57
+08:09:57 (sw_d) TIMESTAMP 08/20 08:09:57
+08:10:04 (sw_d) OUT: "SolidWorks_PDM_CAD_Editor" kbrown@WKS-025 (v14.6) (sw-lic-srv01/27000 495), start 08:10:04
+08:10:15 (sw_d) TIMESTAMP 08/20 08:10:15
+08:10:23 (sw_d) OUT: "SolidWorks_Composer" cjones@WKS-007 (v6.5) (sw-lic-srv01/27000 995), start 08:10:23
+08:10:23 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+08:11:45 (sw_d) TIMESTAMP 08/20 08:11:45
+08:12:52 (sw_d) TIMESTAMP 08/20 08:12:52
+08:14:07 (sw_d) SolidWorks_Flow_Simulation: reserving 1 license(s) for "group" GROUP engineering
+08:15:04 (sw_d) TIMESTAMP 08/20 08:15:04
+08:15:59 (sw_d) DENIED: "SolidWorks_PDM_CAD_Editor" cjones@WKS-035 (Licensed number of users already reached)
+08:16:50 (lmgrd) Ignoring duplicate vendor daemon sw_d
+08:16:50 (lmgrd) All vendor daemons are up
+08:17:10 (sw_d) TIMESTAMP 08/20 08:17:10
+08:17:17 (sw_d) QUEUED: "SolidWorks_CAM_Standard" hmoore@WKS-011
+08:17:32 (sw_d) TIMESTAMP 08/20 08:17:32
+08:17:37 (sw_d) OUT: "SolidWorks_Professional" rpatel@WKS-023 (v1.6) (sw-lic-srv01/27000 483), start 08:17:37
+08:18:59 (sw_d) IN: "eDrawings_Professional" lwang@WKS-002
+08:19:24 (sw_d) DENIED: "SolidWorks_Visualize_Professional" akumar@BLD-05 (Licensed number of users already reached)
+08:20:08 (sw_d) IN: "SolidWorks_Costing" akumar@BLD-01
+08:20:24 (sw_d) TIMESTAMP 08/20 08:20:24
+08:21:41 (sw_d) TIMESTAMP 08/20 08:21:41
+08:21:48 (sw_d) OUT: "SolidWorks_Costing" lwang@WKS-038 (v17.2) (sw-lic-srv01/27000 406), start 08:21:48
+08:23:01 (sw_d) SolidWorks_Simulation_Professional: reserving 1 license(s) for "group" GROUP engineering
+08:23:42 (sw_d) TIMESTAMP 08/20 08:23:42
+08:23:46 (sw_d) OUT: "SolidWorks_Inspection_Professional" akumar@WKS-019 (v13.6) (sw-lic-srv01/27000 816), start 08:23:46
+08:24:31 (sw_d) TIMESTAMP 08/20 08:24:31
+08:24:36 (sw_d) OUT: "SolidWorks_Professional" nverma@WKS-039 (v1.6) (sw-lic-srv01/27000 863), start 08:24:36
+08:25:28 (sw_d) TIMESTAMP 08/20 08:25:28
+08:25:36 (sw_d) OUT: "SolidWorks_Simulation_Professional" akumar@WKS-017 (v23.3) (sw-lic-srv01/27000 794), start 08:25:36
+08:25:36 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+08:25:49 (sw_d) TIMESTAMP 08/20 08:25:49
+08:25:56 (sw_d) OUT: "SolidWorks_Costing" pramesh@WKS-038 (v17.2) (sw-lic-srv01/27000 473), start 08:25:56
+08:26:40 (sw_d) TIMESTAMP 08/20 08:26:40
+08:26:48 (sw_d) OUT: "SolidWorks_MBD" dwilson@WKS-013 (v6.0) (sw-lic-srv01/27000 235), start 08:26:48
+08:28:10 (sw_d) IN: "SolidWorks_Costing" rpatel@WKS-020
+08:29:26 (lmgrd) Ignoring duplicate vendor daemon sw_d
+08:29:26 (lmgrd) All vendor daemons are up
+08:29:55 (sw_d) IN: "SolidWorks_CAM_Professional" kbrown@WKS-037
+08:31:00 (lmgrd) Ignoring duplicate vendor daemon sw_d
+08:31:00 (lmgrd) All vendor daemons are up
+08:31:26 (sw_d) SolidWorks_Standard: reserving 1 license(s) for "group" GROUP engineering
+08:32:32 (sw_d) TIMESTAMP 08/20 08:32:32
+08:32:39 (sw_d) OUT: "SolidWorks_Flow_Simulation" akumar@WKS-025 (v11.5) (sw-lic-srv01/27000 942), start 08:32:39
+08:33:23 (sw_d) IN: "SolidWorks_MBD" dwilson@WKS-013
+08:33:46 (sw_d) DENIED: "SolidWorks_Costing" nverma@BLD-06 (No such feature exists)
+08:34:16 (sw_d) TIMESTAMP 08/20 08:34:16
+08:34:18 (sw_d) OUT: "SolidWorks_Professional" rpatel@WKS-032 (v1.6) (sw-lic-srv01/27000 218), start 08:34:18
+08:34:45 (sw_d) TIMESTAMP 08/20 08:34:45
+08:34:50 (sw_d) OUT: "SolidWorks_Inspection_Professional" jsmith@BLD-06 (v13.6) (sw-lic-srv01/27000 653), start 08:34:50
+08:35:17 (sw_d) SolidWorks_MBD: reserving 1 license(s) for "group" GROUP engineering
+08:35:17 (sw_d) TCP_PORT should not be used in license file when using services. Ignoring
+08:35:59 (sw_d) IN: "SolidWorks_Flow_Simulation" lwang@WKS-018
+08:37:01 (sw_d) IN: "SolidWorks_Composer" vsingh@WKS-026
+08:37:44 (sw_d) TIMESTAMP 08/20 08:37:44
+08:37:51 (sw_d) OUT: "SolidWorks_CAM_Standard" cjones@WKS-030 (v6.6) (sw-lic-srv01/27000 193), start 08:37:51
+08:37:51 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+08:38:12 (sw_d) SolidWorks_Simulation_Premium: reserving 1 license(s) for "group" GROUP engineering
+08:39:29 (sw_d) TIMESTAMP 08/20 08:39:29
+08:39:37 (sw_d) OUT: "SolidWorks_Simulation_Professional" cjones@WKS-015 (v23.3) (sw-lic-srv01/27000 436), start 08:39:37
+08:40:27 (sw_d) TIMESTAMP 08/20 08:40:27
+08:41:49 (sw_d) TIMESTAMP 08/20 08:41:49
+08:41:51 (sw_d) OUT: "SolidWorks_Simulation_Standard" vsingh@BLD-04 (v17.9) (sw-lic-srv01/27000 987), start 08:41:51
+08:42:51 (sw_d) SolidWorks_Simulation_Premium: reserving 2 license(s) for "group" GROUP engineering
+08:43:26 (sw_d) TIMESTAMP 08/20 08:43:26
+08:43:28 (sw_d) OUT: "SolidWorks_CAM_Professional" kbrown@WKS-027 (v19.4) (sw-lic-srv01/27000 638), start 08:43:28
+08:44:35 (sw_d) TIMESTAMP 08/20 08:44:35
+08:44:40 (sw_d) QUEUED: "SolidWorks_Routing" akumar@WKS-007
+08:44:53 (sw_d) TIMESTAMP 08/20 08:44:53
+08:45:00 (sw_d) QUEUED: "SolidWorks_Routing" rpatel@WKS-030
+08:46:16 (sw_d) SolidWorks_MBD: reserving 2 license(s) for "group" GROUP engineering
+08:47:25 (sw_d) TIMESTAMP 08/20 08:47:25
+08:47:27 (sw_d) OUT: "SolidWorks_Premium" lwang@WKS-039 (v7.9) (sw-lic-srv01/27000 251), start 08:47:27
+08:48:56 (sw_d) IN: "SolidWorks_Simulation_Standard" hmoore@WKS-034
+08:49:48 (sw_d) IN: "SolidWorks_CAM_Professional" kbrown@WKS-027
+08:50:17 (sw_d) TIMESTAMP 08/20 08:50:17
+08:51:27 (sw_d) IN: "SolidWorks_CAM_Standard" ftaylor@WKS-011
+08:52:33 (sw_d) TIMESTAMP 08/20 08:52:33
+08:52:40 (sw_d) OUT: "SolidWorks_CAM_Standard" lwang@WKS-028 (v6.6) (sw-lic-srv01/27000 420), start 08:52:40
+08:53:14 (sw_d) DENIED: "SolidWorks_PDM_CAD_Editor" vsingh@WKS-006 (Licensed number of users already reached)
+08:53:35 (sw_d) TIMESTAMP 08/20 08:53:35
+08:53:41 (sw_d) QUEUED: "SolidWorks_Inspection_Professional" ftaylor@WKS-009
+08:55:00 (sw_d) TIMESTAMP 08/20 08:55:00
+08:55:07 (sw_d) OUT: "SolidWorks_CAM_Standard" sgupta@WKS-023 (v6.6) (sw-lic-srv01/27000 994), start 08:55:07
+08:55:07 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+08:55:58 (sw_d) DENIED: "SolidWorks_Inspection_Professional" vsingh@WKS-037 (License server system does not support this feature)
+08:57:12 (sw_d) TIMESTAMP 08/20 08:57:12
+08:57:14 (sw_d) OUT: "SolidWorks_CAM_Standard" lwang@WKS-036 (v6.6) (sw-lic-srv01/27000 476), start 08:57:14
+08:58:23 (sw_d) eDrawings_Professional: reserving 1 license(s) for "group" GROUP engineering
+08:58:59 (sw_d) TIMESTAMP 08/20 08:58:59
+08:59:01 (sw_d) OUT: "SolidWorks_Electrical_Professional" nverma@WKS-022 (v1.7) (sw-lic-srv01/27000 459), start 08:59:01
+09:00:28 (sw_d) DENIED: "SolidWorks_Premium" dwilson@BLD-02 (Licensed number of users already reached)
+09:01:06 (sw_d) TIMESTAMP 08/20 09:01:06
+09:01:10 (sw_d) OUT: "SolidWorks_Costing" lwang@WKS-011 (v17.2) (sw-lic-srv01/27000 478), start 09:01:10
+09:01:26 (sw_d) TIMESTAMP 08/20 09:01:26
+09:01:31 (sw_d) OUT: "SolidWorks_Professional" jsmith@WKS-006 (v1.6) (sw-lic-srv01/27000 378), start 09:01:31
+09:02:42 (sw_d) IN: "SolidWorks_Costing" sgupta@WKS-004
+09:03:41 (sw_d) IN: "SolidWorks_Composer" lwang@BLD-04
+09:04:32 (sw_d) TIMESTAMP 08/20 09:04:32
+09:04:35 (sw_d) OUT: "SolidWorks_Visualize_Professional" akumar@WKS-004 (v1.7) (sw-lic-srv01/27000 107), start 09:04:35
+09:05:05 (sw_d) TIMESTAMP 08/20 09:05:05
+09:05:07 (sw_d) QUEUED: "SolidWorks_Electrical_Professional" lwang@WKS-008
+09:05:38 (sw_d) TIMESTAMP 08/20 09:05:38
+09:05:44 (sw_d) OUT: "eDrawings_Professional" kbrown@WKS-015 (v15.7) (sw-lic-srv01/27000 612), start 09:05:44
+09:06:49 (sw_d) TIMESTAMP 08/20 09:06:49
+09:07:06 (sw_d) IN: "SolidWorks_Visualize_Professional" rpatel@WKS-030
+09:08:34 (sw_d) IN: "SolidWorks_Professional" jsmith@WKS-006
+09:09:03 (sw_d) IN: "SolidWorks_PDM_CAD_Editor" kbrown@WKS-025
+09:09:59 (sw_d) TIMESTAMP 08/20 09:09:59
+09:10:04 (sw_d) OUT: "SolidWorks_CAM_Standard" tlee@WKS-028 (v6.6) (sw-lic-srv01/27000 703), start 09:10:04
+09:10:04 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+09:11:09 (sw_d) TIMESTAMP 08/20 09:11:09
+09:12:04 (sw_d) TIMESTAMP 08/20 09:12:04
+09:12:06 (sw_d) QUEUED: "SolidWorks_Premium" mchen@BLD-02
+09:12:45 (sw_d) TIMESTAMP 08/20 09:12:45
+09:13:12 (sw_d) TIMESTAMP 08/20 09:13:12
+09:13:18 (sw_d) OUT: "SolidWorks_CAM_Professional" rpatel@WKS-013 (v19.4) (sw-lic-srv01/27000 277), start 09:13:18
+09:13:55 (lmgrd) Ignoring duplicate vendor daemon sw_d
+09:13:55 (lmgrd) All vendor daemons are up
+09:15:15 (sw_d) TIMESTAMP 08/20 09:15:15
+09:15:22 (sw_d) QUEUED: "SolidWorks_Costing" jsmith@WKS-037
+09:15:56 (sw_d) IN: "SolidWorks_CAM_Standard" cjones@WKS-030
+09:16:46 (sw_d) IN: "SolidWorks_Costing" lwang@WKS-038
+09:17:40 (sw_d) IN: "eDrawings_Professional" tlee@WKS-038
+09:17:40 (sw_d) TCP_PORT should not be used in license file when using services. Ignoring
+09:18:26 (sw_d) TIMESTAMP 08/20 09:18:26
+09:18:31 (sw_d) OUT: "SolidWorks_Premium" akumar@WKS-039 (v7.9) (sw-lic-srv01/27000 619), start 09:18:31
+09:18:51 (sw_d) IN: "SolidWorks_Visualize_Professional" akumar@WKS-004
+09:20:06 (sw_d) IN: "SolidWorks_Premium" jsmith@WKS-016
+09:21:04 (lmgrd) Ignoring duplicate vendor daemon sw_d
+09:21:04 (lmgrd) All vendor daemons are up
+09:21:35 (sw_d) TIMESTAMP 08/20 09:21:35
+09:21:41 (sw_d) OUT: "SolidWorks_Costing" hmoore@WKS-034 (v17.2) (sw-lic-srv01/27000 635), start 09:21:41
+09:22:43 (sw_d) TIMESTAMP 08/20 09:22:43
+09:23:41 (sw_d) DENIED: "SolidWorks_Professional" ftaylor@BLD-02 (License server system does not support this feature)
+09:23:41 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+09:24:30 (sw_d) TIMESTAMP 08/20 09:24:30
+09:24:38 (sw_d) OUT: "SolidWorks_Visualize_Professional" rpatel@WKS-017 (v1.7) (sw-lic-srv01/27000 841), start 09:24:38
+09:25:03 (sw_d) IN: "SolidWorks_Visualize_Professional" kbrown@WKS-010
+09:26:01 (sw_d) TIMESTAMP 08/20 09:26:01
+09:26:08 (sw_d) OUT: "SolidWorks_Premium" rpatel@WKS-036 (v7.9) (sw-lic-srv01/27000 485), start 09:26:08
+09:27:26 (sw_d) TIMESTAMP 08/20 09:27:26
+09:27:30 (sw_d) OUT: "SolidWorks_MBD" mchen@WKS-024 (v6.0) (sw-lic-srv01/27000 118), start 09:27:30
+09:28:09 (sw_d) TIMESTAMP 08/20 09:28:09
+09:28:12 (sw_d) OUT: "SolidWorks_PDM_CAD_Editor" tlee@WKS-015 (v14.6) (sw-lic-srv01/27000 240), start 09:28:12
+09:28:39 (sw_d) IN: "eDrawings_Professional" kbrown@WKS-015
+09:29:37 (sw_d) TIMESTAMP 08/20 09:29:37
+09:30:06 (sw_d) TIMESTAMP 08/20 09:30:06
+09:30:11 (sw_d) OUT: "SolidWorks_Simulation_Standard" kbrown@WKS-029 (v17.9) (sw-lic-srv01/27000 144), start 09:30:11
+09:31:22 (sw_d) DENIED: "SolidWorks_Costing" tlee@WKS-035 (Licensed number of users already reached)
+09:31:56 (sw_d) TIMESTAMP 08/20 09:31:56
+09:32:01 (sw_d) OUT: "SolidWorks_Costing" hmoore@WKS-019 (v17.2) (sw-lic-srv01/27000 896), start 09:32:01
+09:33:09 (lmgrd) Ignoring duplicate vendor daemon sw_d
+09:33:09 (lmgrd) All vendor daemons are up
+09:33:54 (sw_d) TIMESTAMP 08/20 09:33:54
+09:33:56 (sw_d) OUT: "SolidWorks_PDM_CAD_Editor" cjones@WKS-024 (v14.6) (sw-lic-srv01/27000 667), start 09:33:56
+09:34:44 (sw_d) TIMESTAMP 08/20 09:34:44
+09:34:47 (sw_d) OUT: "SolidWorks_Simulation_Standard" rpatel@WKS-029 (v17.9) (sw-lic-srv01/27000 625), start 09:34:47
+09:35:30 (sw_d) SolidWorks_Inspection_Professional: reserving 1 license(s) for "group" GROUP engineering
+09:36:35 (sw_d) IN: "SolidWorks_Electrical_Professional" cjones@WKS-038
+09:37:30 (sw_d) TIMESTAMP 08/20 09:37:30
+09:37:37 (sw_d) OUT: "SolidWorks_Composer" nverma@WKS-007 (v6.5) (sw-lic-srv01/27000 959), start 09:37:37
+09:38:02 (sw_d) TIMESTAMP 08/20 09:38:02
+09:38:09 (sw_d) OUT: "SolidWorks_PDM_CAD_Editor" kbrown@WKS-009 (v14.6) (sw-lic-srv01/27000 877), start 09:38:09
+09:38:24 (sw_d) TIMESTAMP 08/20 09:38:24
+09:39:06 (sw_d) eDrawings_Professional: reserving 2 license(s) for "group" GROUP engineering
+09:39:33 (sw_d) TIMESTAMP 08/20 09:39:33
+09:39:35 (sw_d) QUEUED: "SolidWorks_Simulation_Premium" rpatel@WKS-008
+09:40:41 (sw_d) TIMESTAMP 08/20 09:40:41
+09:40:48 (sw_d) OUT: "SolidWorks_PDM_CAD_Editor" akumar@WKS-035 (v14.6) (sw-lic-srv01/27000 116), start 09:40:48
+09:40:48 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+09:41:15 (sw_d) TIMESTAMP 08/20 09:41:15
+09:41:21 (sw_d) OUT: "SolidWorks_Standard" akumar@WKS-023 (v17.0) (sw-lic-srv01/27000 346), start 09:41:21
+09:41:46 (sw_d) IN: "SolidWorks_Professional" rpatel@WKS-032
+09:43:10 (sw_d) IN: "SolidWorks_CAM_Standard" tlee@WKS-028
+09:44:14 (sw_d) TIMESTAMP 08/20 09:44:14
+09:45:13 (sw_d) TIMESTAMP 08/20 09:45:13
+09:45:16 (sw_d) OUT: "SolidWorks_Standard" lwang@WKS-005 (v17.0) (sw-lic-srv01/27000 453), start 09:45:16
+09:45:40 (sw_d) TIMESTAMP 08/20 09:45:40
+09:45:48 (sw_d) OUT: "eDrawings_Professional" lwang@BLD-03 (v15.7) (sw-lic-srv01/27000 279), start 09:45:48
+09:46:26 (sw_d) SolidWorks_Premium: reserving 2 license(s) for "group" GROUP engineering
+09:47:14 (sw_d) TIMESTAMP 08/20 09:47:14
+09:47:18 (sw_d) OUT: "SolidWorks_Simulation_Professional" nverma@WKS-003 (v23.3) (sw-lic-srv01/27000 423), start 09:47:18
+09:48:42 (sw_d) IN: "SolidWorks_Professional" cjones@WKS-022
+09:49:42 (sw_d) TIMESTAMP 08/20 09:49:42
+09:50:26 (sw_d) TIMESTAMP 08/20 09:50:26
+09:50:31 (sw_d) OUT: "SolidWorks_Inspection_Professional" sgupta@WKS-026 (v13.6) (sw-lic-srv01/27000 861), start 09:50:31
+09:51:09 (sw_d) IN: "SolidWorks_CAM_Professional" rpatel@WKS-013
+09:51:58 (sw_d) SolidWorks_MBD: reserving 1 license(s) for "group" GROUP engineering
+09:53:18 (sw_d) TIMESTAMP 08/20 09:53:18
+09:53:22 (sw_d) OUT: "SolidWorks_CAM_Standard" vsingh@WKS-021 (v6.6) (sw-lic-srv01/27000 776), start 09:53:22
+09:54:24 (sw_d) TIMESTAMP 08/20 09:54:24
+09:54:31 (sw_d) OUT: "SolidWorks_Costing" lwang@WKS-029 (v17.2) (sw-lic-srv01/27000 143), start 09:54:31
+09:55:21 (sw_d) DENIED: "SolidWorks_Professional" vsingh@BLD-04 (License server system does not support this feature)
+09:56:41 (sw_d) SolidWorks_Simulation_Standard: reserving 1 license(s) for "group" GROUP engineering
+09:56:56 (sw_d) TIMESTAMP 08/20 09:56:56
+09:57:00 (sw_d) OUT: "SolidWorks_Simulation_Premium" ftaylor@BLD-03 (v3.2) (sw-lic-srv01/27000 475), start 09:57:00
+09:57:00 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+09:57:34 (sw_d) DENIED: "SolidWorks_Inspection_Professional" lwang@WKS-029 (Licensed number of users already reached)
+09:58:28 (sw_d) TIMESTAMP 08/20 09:58:28
+09:58:35 (sw_d) OUT: "SolidWorks_Flow_Simulation" tlee@WKS-008 (v11.5) (sw-lic-srv01/27000 126), start 09:58:35
+09:59:52 (sw_d) TIMESTAMP 08/20 09:59:52
+09:59:56 (sw_d) OUT: "eDrawings_Professional" vsingh@WKS-017 (v15.7) (sw-lic-srv01/27000 893), start 09:59:56
+10:00:47 (sw_d) DENIED: "SolidWorks_PDM_CAD_Editor" tlee@WKS-008 (Licensed number of users already reached)
+10:00:47 (sw_d) TCP_PORT should not be used in license file when using services. Ignoring
+10:01:24 (sw_d) TIMESTAMP 08/20 10:01:24
+10:02:19 (sw_d) DENIED: "SolidWorks_Premium" mchen@WKS-035 (No such feature exists)
+10:02:56 (sw_d) SolidWorks_Routing: reserving 1 license(s) for "group" GROUP engineering
+10:03:22 (sw_d) TIMESTAMP 08/20 10:03:22
+10:03:28 (sw_d) OUT: "SolidWorks_PDM_CAD_Editor" pramesh@WKS-024 (v14.6) (sw-lic-srv01/27000 667), start 10:03:28
+10:04:46 (sw_d) TIMESTAMP 08/20 10:04:46
+10:04:53 (sw_d) OUT: "SolidWorks_Premium" vsingh@WKS-020 (v7.9) (sw-lic-srv01/27000 507), start 10:04:53
+10:05:53 (sw_d) TIMESTAMP 08/20 10:05:53
+10:06:00 (sw_d) QUEUED: "SolidWorks_Premium" dwilson@WKS-021
+10:07:14 (sw_d) DENIED: "SolidWorks_Inspection_Professional" dwilson@WKS-036 (License server system does not support this feature)
+10:08:24 (sw_d) IN: "SolidWorks_Premium" vsingh@WKS-020
+10:09:42 (sw_d) TIMESTAMP 08/20 10:09:42
+10:09:45 (sw_d) OUT: "SolidWorks_Simulation_Standard" dwilson@WKS-021 (v17.9) (sw-lic-srv01/27000 826), start 10:09:45
+10:10:36 (sw_d) SolidWorks_Flow_Simulation: reserving 1 license(s) for "group" GROUP engineering
+10:11:07 (sw_d) DENIED: "eDrawings_Professional" vsingh@WKS-033 (License server system does not support this feature)
+10:11:07 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+10:11:43 (sw_d) DENIED: "SolidWorks_Composer" cjones@WKS-037 (Licensed number of users already reached)
+10:12:03 (lmgrd) Ignoring duplicate vendor daemon sw_d
+10:12:03 (lmgrd) All vendor daemons are up
+10:13:31 (sw_d) IN: "SolidWorks_Simulation_Standard" rpatel@WKS-029
+10:14:47 (sw_d) TIMESTAMP 08/20 10:14:47
+10:14:55 (sw_d) OUT: "SolidWorks_Electrical_Professional" hmoore@WKS-016 (v1.7) (sw-lic-srv01/27000 924), start 10:14:55
+10:16:03 (sw_d) TIMESTAMP 08/20 10:16:03
+10:16:08 (sw_d) OUT: "SolidWorks_Professional" dwilson@WKS-029 (v1.6) (sw-lic-srv01/27000 525), start 10:16:08
+10:17:06 (sw_d) DENIED: "SolidWorks_Composer" cjones@BLD-07 (No such feature exists)
+10:17:33 (sw_d) TIMESTAMP 08/20 10:17:33
+10:17:37 (sw_d) QUEUED: "SolidWorks_Routing" mchen@WKS-007
+10:18:03 (sw_d) TIMESTAMP 08/20 10:18:03
+10:18:07 (sw_d) OUT: "SolidWorks_Simulation_Premium" dwilson@WKS-007 (v3.2) (sw-lic-srv01/27000 151), start 10:18:07
+10:18:53 (lmgrd) Ignoring duplicate vendor daemon sw_d
+10:18:53 (lmgrd) All vendor daemons are up
+10:20:16 (sw_d) TIMESTAMP 08/20 10:20:16
+10:20:21 (sw_d) QUEUED: "SolidWorks_Simulation_Professional" ftaylor@WKS-011
+10:21:39 (sw_d) TIMESTAMP 08/20 10:21:39
+10:22:05 (lmgrd) Ignoring duplicate vendor daemon sw_d
+10:22:05 (lmgrd) All vendor daemons are up
+10:22:45 (sw_d) TIMESTAMP 08/20 10:22:45
+10:22:50 (sw_d) OUT: "SolidWorks_Inspection_Professional" pramesh@WKS-004 (v13.6) (sw-lic-srv01/27000 388), start 10:22:50
+10:24:06 (sw_d) TIMESTAMP 08/20 10:24:06
+10:24:13 (sw_d) OUT: "SolidWorks_CAM_Standard" sgupta@WKS-009 (v6.6) (sw-lic-srv01/27000 370), start 10:24:13
+10:25:10 (sw_d) TIMESTAMP 08/20 10:25:10
+10:25:14 (sw_d) OUT: "SolidWorks_Professional" akumar@WKS-036 (v1.6) (sw-lic-srv01/27000 299), start 10:25:14
+10:25:30 (sw_d) TIMESTAMP 08/20 10:25:30
+10:25:38 (sw_d) OUT: "SolidWorks_Costing" ftaylor@WKS-036 (v17.2) (sw-lic-srv01/27000 386), start 10:25:38
+10:25:38 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+10:26:02 (sw_d) TIMESTAMP 08/20 10:26:02
+10:26:05 (sw_d) OUT: "SolidWorks_Composer" mchen@WKS-024 (v6.5) (sw-lic-srv01/27000 873), start 10:26:05
+10:27:11 (sw_d) IN: "SolidWorks_Composer" tlee@WKS-017
+10:28:08 (sw_d) SolidWorks_Routing: reserving 1 license(s) for "group" GROUP engineering
+10:28:33 (sw_d) TIMESTAMP 08/20 10:28:33
+10:28:40 (sw_d) OUT: "SolidWorks_Composer" dwilson@WKS-026 (v6.5) (sw-lic-srv01/27000 731), start 10:28:40
+10:29:59 (sw_d) eDrawings_Professional: reserving 1 license(s) for "group" GROUP engineering
+10:30:08 (sw_d) TIMESTAMP 08/20 10:30:08
+10:30:16 (sw_d) OUT: "SolidWorks_CAM_Standard" sgupta@WKS-038 (v6.6) (sw-lic-srv01/27000 415), start 10:30:16
+10:31:04 (lmgrd) Ignoring duplicate vendor daemon sw_d
+10:31:04 (lmgrd) All vendor daemons are up
+10:32:33 (sw_d) IN: "SolidWorks_Costing" lwang@WKS-029
+10:32:52 (sw_d) IN: "eDrawings_Professional" lwang@BLD-03
+10:33:09 (sw_d) IN: "SolidWorks_CAM_Standard" sgupta@WKS-023
+10:33:50 (sw_d) IN: "SolidWorks_PDM_CAD_Editor" pramesh@WKS-024
+10:34:22 (sw_d) IN: "SolidWorks_Simulation_Standard" kbrown@WKS-029
+10:35:38 (sw_d) TIMESTAMP 08/20 10:35:38
+10:35:44 (sw_d) OUT: "SolidWorks_Simulation_Standard" hmoore@WKS-035 (v17.9) (sw-lic-srv01/27000 450), start 10:35:44
+10:36:57 (sw_d) TIMESTAMP 08/20 10:36:57
+10:37:00 (sw_d) OUT: "SolidWorks_Simulation_Premium" rpatel@WKS-036 (v3.2) (sw-lic-srv01/27000 405), start 10:37:00
+10:37:41 (sw_d) DENIED: "SolidWorks_PDM_CAD_Editor" lwang@WKS-031 (No such feature exists)
+10:38:28 (sw_d) TIMESTAMP 08/20 10:38:28
+10:38:32 (sw_d) OUT: "eDrawings_Professional" sgupta@WKS-026 (v15.7) (sw-lic-srv01/27000 938), start 10:38:32
+10:38:48 (sw_d) TIMESTAMP 08/20 10:38:48
+10:38:52 (sw_d) OUT: "SolidWorks_Premium" lwang@WKS-029 (v7.9) (sw-lic-srv01/27000 771), start 10:38:52
+10:39:32 (sw_d) SolidWorks_Flow_Simulation: reserving 2 license(s) for "group" GROUP engineering
+10:40:00 (sw_d) DENIED: "SolidWorks_Simulation_Premium" tlee@WKS-004 (License server system does not support this feature)
+10:40:42 (sw_d) TIMESTAMP 08/20 10:40:42
+10:40:44 (sw_d) OUT: "SolidWorks_MBD" lwang@BLD-07 (v6.0) (sw-lic-srv01/27000 583), start 10:40:44
+10:40:44 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+10:42:09 (lmgrd) Ignoring duplicate vendor daemon sw_d
+10:42:09 (lmgrd) All vendor daemons are up
+10:43:24 (sw_d) IN: "SolidWorks_CAM_Standard" lwang@WKS-028
+10:44:15 (sw_d) DENIED: "SolidWorks_Premium" jsmith@WKS-037 (Licensed number of users already reached)
+10:44:52 (sw_d) IN: "SolidWorks_Professional" akumar@WKS-036
+10:45:57 (sw_d) SolidWorks_Simulation_Standard: reserving 2 license(s) for "group" GROUP engineering
+10:46:08 (sw_d) TIMESTAMP 08/20 10:46:08
+10:46:13 (sw_d) OUT: "SolidWorks_CAM_Standard" nverma@WKS-022 (v6.6) (sw-lic-srv01/27000 391), start 10:46:13
+10:47:31 (sw_d) TIMESTAMP 08/20 10:47:31
+10:47:31 (sw_d) TCP_PORT should not be used in license file when using services. Ignoring
+10:48:40 (sw_d) TIMESTAMP 08/20 10:48:40
+10:48:45 (sw_d) OUT: "SolidWorks_CAM_Standard" lwang@WKS-011 (v6.6) (sw-lic-srv01/27000 848), start 10:48:45
+10:48:53 (sw_d) TIMESTAMP 08/20 10:48:53
+10:49:01 (sw_d) QUEUED: "SolidWorks_Electrical_Professional" akumar@BLD-05
+10:50:07 (sw_d) SolidWorks_Routing: reserving 1 license(s) for "group" GROUP engineering
+10:50:32 (sw_d) TIMESTAMP 08/20 10:50:32
+10:50:34 (sw_d) OUT: "SolidWorks_CAM_Professional" hmoore@WKS-021 (v19.4) (sw-lic-srv01/27000 354), start 10:50:34
+10:51:19 (sw_d) IN: "SolidWorks_Costing" hmoore@WKS-019
+10:52:44 (sw_d) TIMESTAMP 08/20 10:52:44
+10:52:48 (sw_d) QUEUED: "SolidWorks_Standard" rpatel@BLD-03
+10:52:48 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+10:53:18 (sw_d) IN: "SolidWorks_Flow_Simulation" akumar@WKS-025
+10:54:12 (sw_d) DENIED: "SolidWorks_Electrical_Professional" lwang@BLD-01 (Licensed number of users already reached)
+10:55:23 (sw_d) TIMESTAMP 08/20 10:55:23
+10:55:28 (sw_d) OUT: "SolidWorks_Inspection_Professional" sgupta@BLD-06 (v13.6) (sw-lic-srv01/27000 662), start 10:55:28
+10:56:14 (sw_d) DENIED: "SolidWorks_Premium" mchen@WKS-029 (License server system does not support this feature)
+10:57:35 (sw_d) TIMESTAMP 08/20 10:57:35
+10:57:41 (sw_d) OUT: "eDrawings_Professional" nverma@WKS-033 (v15.7) (sw-lic-srv01/27000 307), start 10:57:41
+10:58:14 (sw_d) TIMESTAMP 08/20 10:58:14
+10:58:17 (sw_d) OUT: "SolidWorks_Routing" hmoore@WKS-008 (v6.5) (sw-lic-srv01/27000 796), start 10:58:17
+10:59:37 (sw_d) IN: "eDrawings_Professional" ftaylor@BLD-06
+11:00:57 (sw_d) IN: "SolidWorks_Electrical_Professional" pramesh@BLD-07
+11:01:44 (sw_d) TIMESTAMP 08/20 11:01:44
+11:01:51 (sw_d) QUEUED: "SolidWorks_Visualize_Professional" rpatel@WKS-001
+11:02:11 (sw_d) IN: "SolidWorks_Simulation_Premium" rpatel@BLD-07
+11:02:34 (lmgrd) Ignoring duplicate vendor daemon sw_d
+11:02:34 (lmgrd) All vendor daemons are up
+11:03:25 (sw_d) IN: "SolidWorks_Composer" mchen@WKS-024
+11:04:27 (lmgrd) Ignoring duplicate vendor daemon sw_d
+11:04:27 (lmgrd) All vendor daemons are up
+11:05:26 (sw_d) TIMESTAMP 08/20 11:05:26
+11:05:30 (sw_d) OUT: "eDrawings_Professional" dwilson@BLD-03 (v15.7) (sw-lic-srv01/27000 980), start 11:05:30
+11:06:51 (sw_d) TIMESTAMP 08/20 11:06:51
+11:06:53 (sw_d) OUT: "SolidWorks_CAM_Professional" kbrown@WKS-015 (v19.4) (sw-lic-srv01/27000 954), start 11:06:53
+11:08:07 (sw_d) DENIED: "eDrawings_Professional" sgupta@WKS-035 (No such feature exists)
+11:08:07 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+11:09:18 (sw_d) TIMESTAMP 08/20 11:09:18
+11:09:20 (sw_d) OUT: "SolidWorks_Flow_Simulation" tlee@BLD-08 (v11.5) (sw-lic-srv01/27000 883), start 11:09:20
+11:09:32 (sw_d) TIMESTAMP 08/20 11:09:32
+11:09:37 (sw_d) OUT: "SolidWorks_Premium" vsingh@WKS-039 (v7.9) (sw-lic-srv01/27000 134), start 11:09:37
+11:09:57 (sw_d) IN: "SolidWorks_PDM_CAD_Editor" tlee@WKS-015
+11:10:15 (sw_d) TIMESTAMP 08/20 11:10:15
+11:10:19 (sw_d) OUT: "SolidWorks_Electrical_Professional" tlee@BLD-08 (v1.7) (sw-lic-srv01/27000 689), start 11:10:19
+11:11:12 (sw_d) TIMESTAMP 08/20 11:11:12
+11:12:16 (sw_d) TIMESTAMP 08/20 11:12:16
+11:12:19 (sw_d) OUT: "SolidWorks_Professional" mchen@WKS-038 (v1.6) (sw-lic-srv01/27000 852), start 11:12:19
+11:13:29 (sw_d) TIMESTAMP 08/20 11:13:29
+11:13:37 (sw_d) OUT: "SolidWorks_Inspection_Professional" jsmith@BLD-04 (v13.6) (sw-lic-srv01/27000 490), start 11:13:37
+11:14:45 (sw_d) IN: "SolidWorks_Simulation_Premium" ftaylor@BLD-03
+11:16:08 (sw_d) IN: "SolidWorks_MBD" mchen@WKS-024
+11:17:22 (sw_d) TIMESTAMP 08/20 11:17:22
+11:18:30 (sw_d) IN: "SolidWorks_Inspection_Professional" jsmith@BLD-06
+11:19:13 (sw_d) TIMESTAMP 08/20 11:19:13
+11:19:17 (sw_d) OUT: "SolidWorks_Premium" nverma@WKS-029 (v7.9) (sw-lic-srv01/27000 967), start 11:19:17
+11:19:54 (sw_d) TIMESTAMP 08/20 11:19:54
+11:19:56 (sw_d) OUT: "SolidWorks_Visualize_Professional" jsmith@WKS-039 (v1.7) (sw-lic-srv01/27000 717), start 11:19:56
+11:21:23 (sw_d) TIMESTAMP 08/20 11:21:23
+11:21:26 (sw_d) QUEUED: "eDrawings_Professional" tlee@WKS-031
+11:21:34 (sw_d) TIMESTAMP 08/20 11:21:34
+11:21:42 (sw_d) OUT: "SolidWorks_Simulation_Professional" kbrown@WKS-008 (v23.3) (sw-lic-srv01/27000 864), start 11:21:42
+11:22:19 (sw_d) TIMESTAMP 08/20 11:22:19
+11:22:23 (sw_d) OUT: "SolidWorks_Simulation_Premium" mchen@WKS-021 (v3.2) (sw-lic-srv01/27000 894), start 11:22:23
+11:23:46 (sw_d) DENIED: "SolidWorks_Electrical_Professional" rpatel@WKS-024 (License server system does not support this feature)
+11:24:13 (sw_d) SolidWorks_PDM_CAD_Editor: reserving 1 license(s) for "group" GROUP engineering
+11:25:08 (sw_d) IN: "SolidWorks_Composer" nverma@WKS-007
+11:25:08 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+11:25:56 (sw_d) IN: "SolidWorks_CAM_Professional" hmoore@WKS-021
+11:26:30 (sw_d) TIMESTAMP 08/20 11:26:30
+11:26:36 (sw_d) OUT: "SolidWorks_Visualize_Professional" akumar@WKS-016 (v1.7) (sw-lic-srv01/27000 611), start 11:26:36
+11:27:53 (lmgrd) Ignoring duplicate vendor daemon sw_d
+11:27:53 (lmgrd) All vendor daemons are up
+11:28:22 (sw_d) TIMESTAMP 08/20 11:28:22
+11:28:29 (sw_d) QUEUED: "SolidWorks_Inspection_Professional" dwilson@WKS-009
+11:29:07 (sw_d) TIMESTAMP 08/20 11:29:07
+11:30:21 (sw_d) TIMESTAMP 08/20 11:30:21
+11:30:29 (sw_d) OUT: "SolidWorks_Premium" cjones@BLD-04 (v7.9) (sw-lic-srv01/27000 149), start 11:30:29
+11:30:29 (sw_d) TCP_PORT should not be used in license file when using services. Ignoring
+11:31:01 (sw_d) SolidWorks_Simulation_Premium: reserving 1 license(s) for "group" GROUP engineering
+11:31:43 (sw_d) IN: "SolidWorks_Simulation_Premium" rpatel@WKS-036
+11:32:58 (sw_d) TIMESTAMP 08/20 11:32:58
+11:33:00 (sw_d) OUT: "eDrawings_Professional" mchen@WKS-027 (v15.7) (sw-lic-srv01/27000 112), start 11:33:00
+11:34:23 (lmgrd) Ignoring duplicate vendor daemon sw_d
+11:34:23 (lmgrd) All vendor daemons are up
+11:35:33 (sw_d) SolidWorks_Simulation_Standard: reserving 1 license(s) for "group" GROUP engineering
+11:35:59 (sw_d) TIMESTAMP 08/20 11:35:59
+11:36:07 (sw_d) OUT: "SolidWorks_Routing" rpatel@WKS-023 (v6.5) (sw-lic-srv01/27000 373), start 11:36:07
+11:37:09 (lmgrd) Ignoring duplicate vendor daemon sw_d
+11:37:09 (lmgrd) All vendor daemons are up
+11:37:50 (sw_d) TIMESTAMP 08/20 11:37:50
+11:37:52 (sw_d) OUT: "SolidWorks_Premium" jsmith@BLD-03 (v7.9) (sw-lic-srv01/27000 877), start 11:37:52
+11:38:48 (sw_d) TIMESTAMP 08/20 11:38:48
+11:38:55 (sw_d) OUT: "SolidWorks_PDM_CAD_Editor" pramesh@BLD-02 (v14.6) (sw-lic-srv01/27000 109), start 11:38:55
+11:38:55 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+11:40:13 (sw_d) SolidWorks_Composer: reserving 2 license(s) for "group" GROUP engineering
+11:40:26 (sw_d) TIMESTAMP 08/20 11:40:26
+11:40:33 (sw_d) OUT: "SolidWorks_PDM_CAD_Editor" rpatel@WKS-003 (v14.6) (sw-lic-srv01/27000 176), start 11:40:33
+11:42:00 (sw_d) DENIED: "SolidWorks_Simulation_Standard" nverma@WKS-021 (Licensed number of users already reached)
+11:43:05 (sw_d) TIMESTAMP 08/20 11:43:05
+11:44:27 (sw_d) TIMESTAMP 08/20 11:44:27
+11:44:32 (sw_d) OUT: "SolidWorks_Visualize_Professional" jsmith@WKS-035 (v1.7) (sw-lic-srv01/27000 439), start 11:44:32
+11:45:46 (sw_d) TIMESTAMP 08/20 11:45:46
+11:45:51 (sw_d) QUEUED: "SolidWorks_Inspection_Professional" pramesh@WKS-007
+11:46:49 (sw_d) DENIED: "SolidWorks_Visualize_Professional" ftaylor@WKS-021 (Licensed number of users already reached)
+11:47:59 (sw_d) TIMESTAMP 08/20 11:47:59
+11:48:06 (sw_d) OUT: "eDrawings_Professional" sgupta@WKS-028 (v15.7) (sw-lic-srv01/27000 290), start 11:48:06
+11:48:58 (sw_d) SolidWorks_Premium: reserving 1 license(s) for "group" GROUP engineering
+11:49:57 (sw_d) TIMESTAMP 08/20 11:49:57
+11:50:01 (sw_d) QUEUED: "SolidWorks_CAM_Professional" kbrown@WKS-025
+11:50:23 (sw_d) TIMESTAMP 08/20 11:50:23
+11:50:27 (sw_d) OUT: "SolidWorks_Electrical_Professional" hmoore@WKS-024 (v1.7) (sw-lic-srv01/27000 879), start 11:50:27
+11:50:48 (sw_d) TIMESTAMP 08/20 11:50:48
+11:50:53 (sw_d) OUT: "SolidWorks_Costing" mchen@WKS-036 (v17.2) (sw-lic-srv01/27000 624), start 11:50:53
+11:51:15 (sw_d) TIMESTAMP 08/20 11:51:15
+11:51:19 (sw_d) OUT: "SolidWorks_Premium" akumar@WKS-039 (v7.9) (sw-lic-srv01/27000 903), start 11:51:19
+11:51:19 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+11:52:11 (sw_d) IN: "SolidWorks_Composer" cjones@WKS-013
+11:53:39 (sw_d) IN: "SolidWorks_MBD" lwang@BLD-07
+11:54:23 (sw_d) TIMESTAMP 08/20 11:54:23
+11:54:28 (sw_d) OUT: "SolidWorks_PDM_CAD_Editor" dwilson@WKS-005 (v14.6) (sw-lic-srv01/27000 271), start 11:54:28
+11:55:21 (sw_d) IN: "SolidWorks_Routing" kbrown@WKS-009
+11:56:04 (sw_d) TIMESTAMP 08/20 11:56:04
+11:56:07 (sw_d) QUEUED: "SolidWorks_PDM_CAD_Editor" akumar@BLD-01
+11:56:31 (sw_d) TIMESTAMP 08/20 11:56:31
+11:56:39 (sw_d) OUT: "SolidWorks_Visualize_Professional" lwang@BLD-01 (v1.7) (sw-lic-srv01/27000 489), start 11:56:39
+11:57:36 (sw_d) IN: "SolidWorks_Visualize_Professional" lwang@BLD-01
+11:58:32 (sw_d) DENIED: "SolidWorks_Simulation_Professional" hmoore@WKS-021 (Licensed number of users already reached)
+11:59:20 (sw_d) TIMESTAMP 08/20 11:59:20
+11:59:24 (sw_d) QUEUED: "SolidWorks_PDM_CAD_Editor" akumar@WKS-016
+12:00:22 (sw_d) TIMESTAMP 08/20 12:00:22
+12:00:29 (sw_d) OUT: "SolidWorks_Simulation_Professional" akumar@WKS-035 (v23.3) (sw-lic-srv01/27000 284), start 12:00:29
+12:01:43 (lmgrd) Ignoring duplicate vendor daemon sw_d
+12:01:43 (lmgrd) All vendor daemons are up
+12:02:35 (sw_d) SolidWorks_Premium: reserving 1 license(s) for "group" GROUP engineering
+12:03:23 (sw_d) TIMESTAMP 08/20 12:03:23
+12:03:28 (sw_d) OUT: "SolidWorks_CAM_Professional" kbrown@WKS-028 (v19.4) (sw-lic-srv01/27000 908), start 12:03:28
+12:04:44 (sw_d) IN: "SolidWorks_PDM_CAD_Editor" pramesh@BLD-02
+12:06:01 (sw_d) TIMESTAMP 08/20 12:06:01
+12:06:08 (sw_d) OUT: "SolidWorks_Inspection_Professional" kbrown@WKS-035 (v13.6) (sw-lic-srv01/27000 708), start 12:06:08
+12:06:08 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+12:06:54 (sw_d) DENIED: "SolidWorks_Inspection_Professional" dwilson@BLD-03 (License server system does not support this feature)
+12:07:51 (lmgrd) Ignoring duplicate vendor daemon sw_d
+12:07:51 (lmgrd) All vendor daemons are up
+12:08:01 (sw_d) TIMESTAMP 08/20 12:08:01
+12:08:07 (sw_d) OUT: "SolidWorks_Simulation_Premium" mchen@WKS-034 (v3.2) (sw-lic-srv01/27000 671), start 12:08:07
+12:09:04 (sw_d) TIMESTAMP 08/20 12:09:04
+12:09:09 (sw_d) OUT: "SolidWorks_Routing" dwilson@WKS-023 (v6.5) (sw-lic-srv01/27000 125), start 12:09:09
+12:10:17 (sw_d) TIMESTAMP 08/20 12:10:17
+12:10:45 (sw_d) TIMESTAMP 08/20 12:10:45
+12:10:50 (sw_d) OUT: "SolidWorks_Composer" hmoore@WKS-014 (v6.5) (sw-lic-srv01/27000 633), start 12:10:50
+12:11:17 (sw_d) IN: "SolidWorks_Professional" mchen@WKS-038
+12:12:08 (sw_d) TIMESTAMP 08/20 12:12:08
+12:12:10 (sw_d) OUT: "SolidWorks_CAM_Standard" pramesh@WKS-022 (v6.6) (sw-lic-srv01/27000 763), start 12:12:10
+12:13:26 (sw_d) TIMESTAMP 08/20 12:13:26
+12:13:31 (sw_d) OUT: "SolidWorks_Simulation_Standard" lwang@WKS-036 (v17.9) (sw-lic-srv01/27000 536), start 12:13:31
+12:14:03 (sw_d) TIMESTAMP 08/20 12:14:03
+12:14:09 (sw_d) OUT: "SolidWorks_MBD" sgupta@WKS-002 (v6.0) (sw-lic-srv01/27000 855), start 12:14:09
+12:15:39 (sw_d) IN: "SolidWorks_Costing" dwilson@WKS-017
+12:16:21 (sw_d) TIMESTAMP 08/20 12:16:21
+12:16:29 (sw_d) QUEUED: "SolidWorks_Premium" akumar@WKS-007
+12:17:22 (sw_d) TIMESTAMP 08/20 12:17:22
+12:17:30 (sw_d) OUT: "SolidWorks_Costing" vsingh@WKS-017 (v17.2) (sw-lic-srv01/27000 786), start 12:17:30
+12:18:25 (sw_d) IN: "SolidWorks_Composer" hmoore@WKS-014
+12:19:17 (sw_d) TIMESTAMP 08/20 12:19:17
+12:19:24 (sw_d) OUT: "SolidWorks_Costing" akumar@WKS-012 (v17.2) (sw-lic-srv01/27000 933), start 12:19:24
+12:19:24 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+12:19:52 (sw_d) TIMESTAMP 08/20 12:19:52
+12:19:56 (sw_d) OUT: "SolidWorks_Simulation_Premium" rpatel@WKS-008 (v3.2) (sw-lic-srv01/27000 287), start 12:19:56
+12:19:56 (sw_d) TCP_PORT should not be used in license file when using services. Ignoring
+12:21:00 (sw_d) IN: "SolidWorks_CAM_Standard" lwang@WKS-036
+12:21:38 (sw_d) IN: "SolidWorks_Electrical_Professional" hmoore@WKS-024
+12:22:14 (sw_d) IN: "SolidWorks_Electrical_Professional" nverma@WKS-022
+12:23:26 (sw_d) DENIED: "SolidWorks_Inspection_Professional" pramesh@WKS-032 (Licensed number of users already reached)
+12:24:52 (sw_d) IN: "SolidWorks_Premium" jsmith@BLD-03
+12:25:58 (sw_d) TIMESTAMP 08/20 12:25:58
+12:26:00 (sw_d) QUEUED: "SolidWorks_Costing" hmoore@WKS-011
+12:26:44 (sw_d) TIMESTAMP 08/20 12:26:44
+12:26:52 (sw_d) OUT: "SolidWorks_Simulation_Premium" mchen@WKS-019 (v3.2) (sw-lic-srv01/27000 272), start 12:26:52
+12:28:17 (sw_d) IN: "SolidWorks_Routing" dwilson@WKS-023
+12:29:41 (sw_d) SolidWorks_Inspection_Professional: reserving 2 license(s) for "group" GROUP engineering
+12:31:02 (sw_d) TIMESTAMP 08/20 12:31:02
+12:31:05 (sw_d) OUT: "SolidWorks_MBD" vsingh@BLD-03 (v6.0) (sw-lic-srv01/27000 869), start 12:31:05
+12:32:09 (sw_d) TIMESTAMP 08/20 12:32:09
+12:32:17 (sw_d) OUT: "SolidWorks_Premium" hmoore@WKS-008 (v7.9) (sw-lic-srv01/27000 894), start 12:32:17
+12:33:47 (sw_d) DENIED: "SolidWorks_MBD" dwilson@BLD-01 (Licensed number of users already reached)
+12:34:09 (sw_d) IN: "SolidWorks_PDM_CAD_Editor" dwilson@WKS-005
+12:34:37 (sw_d) TIMESTAMP 08/20 12:34:37
+12:34:45 (sw_d) OUT: "SolidWorks_Electrical_Professional" rpatel@WKS-037 (v1.7) (sw-lic-srv01/27000 373), start 12:34:45
+12:34:45 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+12:35:17 (lmgrd) Ignoring duplicate vendor daemon sw_d
+12:35:17 (lmgrd) All vendor daemons are up
+12:36:07 (sw_d) TIMESTAMP 08/20 12:36:07
+12:36:45 (sw_d) TIMESTAMP 08/20 12:36:45
+12:36:53 (sw_d) OUT: "SolidWorks_Composer" cjones@WKS-016 (v6.5) (sw-lic-srv01/27000 879), start 12:36:53
+12:37:26 (sw_d) IN: "SolidWorks_Professional" dwilson@WKS-029
+12:38:34 (sw_d) TIMESTAMP 08/20 12:38:34
+12:38:38 (sw_d) OUT: "SolidWorks_Premium" sgupta@WKS-033 (v7.9) (sw-lic-srv01/27000 867), start 12:38:38
+12:39:48 (sw_d) TIMESTAMP 08/20 12:39:48
+12:39:55 (sw_d) OUT: "SolidWorks_Standard" cjones@BLD-08 (v17.0) (sw-lic-srv01/27000 195), start 12:39:55
+12:40:18 (sw_d) SolidWorks_Visualize_Professional: reserving 1 license(s) for "group" GROUP engineering
+12:41:33 (sw_d) TIMESTAMP 08/20 12:41:33
+12:41:36 (sw_d) OUT: "SolidWorks_Electrical_Professional" lwang@WKS-036 (v1.7) (sw-lic-srv01/27000 691), start 12:41:36
+12:41:54 (sw_d) TIMESTAMP 08/20 12:41:54
+12:41:57 (sw_d) OUT: "SolidWorks_Costing" pramesh@WKS-008 (v17.2) (sw-lic-srv01/27000 978), start 12:41:57
+12:42:12 (lmgrd) Ignoring duplicate vendor daemon sw_d
+12:42:12 (lmgrd) All vendor daemons are up
+12:42:43 (sw_d) TIMESTAMP 08/20 12:42:43
+12:43:26 (sw_d) TIMESTAMP 08/20 12:43:26
+12:43:33 (sw_d) OUT: "SolidWorks_Inspection_Professional" rpatel@WKS-006 (v13.6) (sw-lic-srv01/27000 480), start 12:43:33
+12:44:38 (sw_d) DENIED: "SolidWorks_Simulation_Premium" sgupta@BLD-03 (Licensed number of users already reached)
+12:45:20 (sw_d) IN: "SolidWorks_Premium" lwang@WKS-039
+12:46:26 (sw_d) TIMESTAMP 08/20 12:46:26
+12:46:31 (sw_d) OUT: "SolidWorks_Composer" cjones@WKS-008 (v6.5) (sw-lic-srv01/27000 980), start 12:46:31
+12:46:51 (sw_d) TIMESTAMP 08/20 12:46:51
+12:46:55 (sw_d) OUT: "SolidWorks_Premium" kbrown@WKS-007 (v7.9) (sw-lic-srv01/27000 205), start 12:46:55
+12:47:25 (sw_d) TIMESTAMP 08/20 12:47:25
+12:47:27 (sw_d) OUT: "SolidWorks_CAM_Professional" jsmith@BLD-05 (v19.4) (sw-lic-srv01/27000 246), start 12:47:27
+12:47:27 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+12:48:03 (sw_d) IN: "SolidWorks_Inspection_Professional" sgupta@WKS-026
+12:49:14 (sw_d) TIMESTAMP 08/20 12:49:14
+12:49:42 (sw_d) TIMESTAMP 08/20 12:49:42
+12:49:46 (sw_d) QUEUED: "SolidWorks_Visualize_Professional" lwang@WKS-028
+12:50:36 (sw_d) DENIED: "SolidWorks_Simulation_Premium" mchen@WKS-039 (License server system does not support this feature)
+12:51:22 (sw_d) TIMESTAMP 08/20 12:51:22
+12:51:29 (sw_d) OUT: "SolidWorks_Routing" tlee@WKS-026 (v6.5) (sw-lic-srv01/27000 402), start 12:51:29
+12:52:45 (sw_d) TIMESTAMP 08/20 12:52:45
+12:52:47 (sw_d) OUT: "SolidWorks_Simulation_Premium" hmoore@BLD-02 (v3.2) (sw-lic-srv01/27000 708), start 12:52:47
+12:53:48 (lmgrd) Ignoring duplicate vendor daemon sw_d
+12:53:48 (lmgrd) All vendor daemons are up
+12:55:15 (sw_d) IN: "SolidWorks_CAM_Standard" pramesh@WKS-022
+12:55:37 (sw_d) TIMESTAMP 08/20 12:55:37
+12:55:39 (sw_d) OUT: "SolidWorks_Premium" pramesh@WKS-017 (v7.9) (sw-lic-srv01/27000 320), start 12:55:39
+12:56:51 (sw_d) TIMESTAMP 08/20 12:56:51
+12:56:58 (sw_d) OUT: "SolidWorks_Routing" ftaylor@WKS-027 (v6.5) (sw-lic-srv01/27000 533), start 12:56:58
+12:58:21 (sw_d) IN: "SolidWorks_Visualize_Professional" rpatel@WKS-017
+12:59:11 (sw_d) TIMESTAMP 08/20 12:59:11
+12:59:15 (sw_d) OUT: "SolidWorks_Simulation_Professional" ftaylor@WKS-010 (v23.3) (sw-lic-srv01/27000 649), start 12:59:15
+13:00:09 (sw_d) DENIED: "SolidWorks_Simulation_Premium" pramesh@WKS-016 (Licensed number of users already reached)
+13:01:22 (sw_d) DENIED: "SolidWorks_Professional" rpatel@BLD-04 (License server system does not support this feature)
+13:01:22 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+13:01:34 (sw_d) TIMESTAMP 08/20 13:01:34
+13:01:38 (sw_d) QUEUED: "SolidWorks_Standard" dwilson@WKS-032
+13:02:24 (sw_d) TIMESTAMP 08/20 13:02:24
+13:02:26 (sw_d) OUT: "SolidWorks_CAM_Professional" kbrown@WKS-018 (v19.4) (sw-lic-srv01/27000 850), start 13:02:26
+13:02:26 (sw_d) TCP_PORT should not be used in license file when using services. Ignoring
+13:03:28 (sw_d) TIMESTAMP 08/20 13:03:28
+13:03:35 (sw_d) OUT: "SolidWorks_Premium" rpatel@BLD-07 (v7.9) (sw-lic-srv01/27000 690), start 13:03:35
+13:04:48 (sw_d) IN: "SolidWorks_Simulation_Standard" ftaylor@WKS-020
+13:05:43 (sw_d) TIMESTAMP 08/20 13:05:43
+13:05:50 (sw_d) OUT: "SolidWorks_CAM_Standard" nverma@WKS-037 (v6.6) (sw-lic-srv01/27000 790), start 13:05:50
+13:07:06 (sw_d) TIMESTAMP 08/20 13:07:06
+13:07:10 (sw_d) OUT: "SolidWorks_Standard" tlee@WKS-003 (v17.0) (sw-lic-srv01/27000 583), start 13:07:10
+13:07:47 (lmgrd) Ignoring duplicate vendor daemon sw_d
+13:07:47 (lmgrd) All vendor daemons are up
+13:08:51 (sw_d) TIMESTAMP 08/20 13:08:51
+13:08:55 (sw_d) OUT: "SolidWorks_Simulation_Premium" sgupta@BLD-08 (v3.2) (sw-lic-srv01/27000 427), start 13:08:55
+13:09:25 (sw_d) IN: "SolidWorks_Premium" sgupta@WKS-032
+13:10:46 (lmgrd) Ignoring duplicate vendor daemon sw_d
+13:10:46 (lmgrd) All vendor daemons are up
+13:12:00 (sw_d) TIMESTAMP 08/20 13:12:00
+13:12:26 (sw_d) IN: "SolidWorks_Inspection_Professional" akumar@WKS-036
+13:13:18 (sw_d) IN: "SolidWorks_CAM_Standard" lwang@WKS-011
+13:14:20 (sw_d) IN: "SolidWorks_Simulation_Premium" mchen@WKS-034
+13:15:02 (sw_d) TIMESTAMP 08/20 13:15:02
+13:15:06 (sw_d) OUT: "SolidWorks_MBD" pramesh@WKS-015 (v6.0) (sw-lic-srv01/27000 654), start 13:15:06
+13:15:17 (sw_d) TIMESTAMP 08/20 13:15:17
+13:15:21 (sw_d) QUEUED: "SolidWorks_Visualize_Professional" cjones@BLD-08
+13:16:43 (lmgrd) Ignoring duplicate vendor daemon sw_d
+13:16:43 (lmgrd) All vendor daemons are up
+13:17:05 (lmgrd) Ignoring duplicate vendor daemon sw_d
+13:17:05 (lmgrd) All vendor daemons are up
+13:17:24 (sw_d) TIMESTAMP 08/20 13:17:24
+13:17:31 (sw_d) OUT: "SolidWorks_Simulation_Premium" nverma@WKS-034 (v3.2) (sw-lic-srv01/27000 522), start 13:17:31
+13:17:56 (sw_d) IN: "SolidWorks_MBD" sgupta@WKS-002
+13:18:20 (sw_d) IN: "SolidWorks_Inspection_Professional" akumar@WKS-019
+13:18:20 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+13:18:57 (sw_d) TIMESTAMP 08/20 13:18:57
+13:19:05 (sw_d) OUT: "SolidWorks_Composer" nverma@WKS-026 (v6.5) (sw-lic-srv01/27000 817), start 13:19:05
+13:20:09 (sw_d) TIMESTAMP 08/20 13:20:09
+13:20:17 (sw_d) OUT: "SolidWorks_Premium" tlee@WKS-009 (v7.9) (sw-lic-srv01/27000 898), start 13:20:17
+13:20:39 (sw_d) TIMESTAMP 08/20 13:20:39
+13:20:45 (sw_d) OUT: "SolidWorks_Costing" lwang@WKS-027 (v17.2) (sw-lic-srv01/27000 223), start 13:20:45
+13:21:54 (sw_d) TIMESTAMP 08/20 13:21:54
+13:21:57 (sw_d) OUT: "SolidWorks_Flow_Simulation" cjones@WKS-008 (v11.5) (sw-lic-srv01/27000 192), start 13:21:57
+13:22:39 (sw_d) SolidWorks_Composer: reserving 1 license(s) for "group" GROUP engineering
+13:23:31 (sw_d) TIMESTAMP 08/20 13:23:31
+13:23:39 (sw_d) OUT: "SolidWorks_Professional" jsmith@WKS-020 (v1.6) (sw-lic-srv01/27000 366), start 13:23:39
+13:24:45 (sw_d) TIMESTAMP 08/20 13:24:45
+13:25:29 (sw_d) TIMESTAMP 08/20 13:25:29
+13:25:31 (sw_d) OUT: "SolidWorks_CAM_Standard" ftaylor@WKS-009 (v6.6) (sw-lic-srv01/27000 224), start 13:25:31
+13:25:55 (sw_d) TIMESTAMP 08/20 13:25:55
+13:26:02 (sw_d) OUT: "SolidWorks_Visualize_Professional" lwang@BLD-05 (v1.7) (sw-lic-srv01/27000 745), start 13:26:02
+13:26:18 (sw_d) TIMESTAMP 08/20 13:26:18
+13:26:26 (sw_d) OUT: "SolidWorks_Premium" tlee@BLD-03 (v7.9) (sw-lic-srv01/27000 554), start 13:26:26
+13:27:18 (sw_d) TIMESTAMP 08/20 13:27:18
+13:27:23 (sw_d) OUT: "SolidWorks_Costing" pramesh@WKS-011 (v17.2) (sw-lic-srv01/27000 687), start 13:27:23
+13:27:38 (sw_d) TIMESTAMP 08/20 13:27:38
+13:27:41 (sw_d) OUT: "SolidWorks_MBD" dwilson@WKS-023 (v6.0) (sw-lic-srv01/27000 319), start 13:27:41
+13:28:53 (sw_d) TIMESTAMP 08/20 13:28:53
+13:29:45 (sw_d) IN: "SolidWorks_Composer" cjones@WKS-016
+13:30:03 (sw_d) TIMESTAMP 08/20 13:30:03
+13:30:11 (sw_d) OUT: "SolidWorks_CAM_Professional" sgupta@WKS-013 (v19.4) (sw-lic-srv01/27000 758), start 13:30:11
+13:31:35 (sw_d) SolidWorks_Visualize_Professional: reserving 2 license(s) for "group" GROUP engineering
+13:32:59 (sw_d) SolidWorks_Inspection_Professional: reserving 2 license(s) for "group" GROUP engineering
+13:34:01 (sw_d) TIMESTAMP 08/20 13:34:01
+13:34:03 (sw_d) OUT: "SolidWorks_Standard" lwang@WKS-039 (v17.0) (sw-lic-srv01/27000 324), start 13:34:03
+13:34:03 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+13:35:18 (sw_d) IN: "SolidWorks_Costing" pramesh@WKS-011
+13:35:37 (sw_d) TIMESTAMP 08/20 13:35:37
+13:35:45 (sw_d) OUT: "SolidWorks_Simulation_Premium" rpatel@WKS-035 (v3.2) (sw-lic-srv01/27000 935), start 13:35:45
+13:37:13 (sw_d) SolidWorks_Visualize_Professional: reserving 1 license(s) for "group" GROUP engineering
+13:37:58 (sw_d) IN: "SolidWorks_Professional" jsmith@WKS-020
+13:38:58 (lmgrd) Ignoring duplicate vendor daemon sw_d
+13:38:58 (lmgrd) All vendor daemons are up
+13:40:16 (sw_d) IN: "SolidWorks_CAM_Standard" vsingh@WKS-021
+13:40:40 (sw_d) TIMESTAMP 08/20 13:40:40
+13:40:42 (sw_d) OUT: "SolidWorks_Simulation_Premium" pramesh@WKS-034 (v3.2) (sw-lic-srv01/27000 589), start 13:40:42
+13:41:11 (sw_d) TIMESTAMP 08/20 13:41:11
+13:41:13 (sw_d) OUT: "SolidWorks_Simulation_Standard" nverma@WKS-021 (v17.9) (sw-lic-srv01/27000 160), start 13:41:13
+13:41:42 (sw_d) SolidWorks_Inspection_Professional: reserving 1 license(s) for "group" GROUP engineering
+13:43:05 (sw_d) TIMESTAMP 08/20 13:43:05
+13:43:12 (sw_d) OUT: "SolidWorks_Electrical_Professional" lwang@WKS-009 (v1.7) (sw-lic-srv01/27000 261), start 13:43:12
+13:44:03 (sw_d) TIMESTAMP 08/20 13:44:03
+13:44:07 (sw_d) OUT: "eDrawings_Professional" kbrown@BLD-01 (v15.7) (sw-lic-srv01/27000 905), start 13:44:07
+13:45:08 (sw_d) TIMESTAMP 08/20 13:45:08
+13:45:10 (sw_d) OUT: "SolidWorks_Electrical_Professional" dwilson@WKS-012 (v1.7) (sw-lic-srv01/27000 846), start 13:45:10
+13:45:48 (sw_d) DENIED: "SolidWorks_Simulation_Premium" jsmith@WKS-037 (Licensed number of users already reached)
+13:46:42 (sw_d) TIMESTAMP 08/20 13:46:42
+13:46:45 (sw_d) QUEUED: "SolidWorks_Simulation_Premium" lwang@WKS-021
+13:46:45 (sw_d) TCP_PORT should not be used in license file when using services. Ignoring
+13:47:53 (sw_d) TIMESTAMP 08/20 13:47:53
+13:47:57 (sw_d) OUT: "SolidWorks_Simulation_Professional" tlee@BLD-06 (v23.3) (sw-lic-srv01/27000 169), start 13:47:57
+13:47:57 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+13:48:07 (sw_d) TIMESTAMP 08/20 13:48:07
+13:48:12 (sw_d) OUT: "SolidWorks_Costing" kbrown@WKS-027 (v17.2) (sw-lic-srv01/27000 270), start 13:48:12
+13:49:11 (sw_d) IN: "SolidWorks_Costing" lwang@WKS-011
+13:49:46 (sw_d) IN: "eDrawings_Professional" kbrown@BLD-01
+13:49:58 (sw_d) TIMESTAMP 08/20 13:49:58
+13:50:03 (sw_d) OUT: "SolidWorks_CAM_Standard" vsingh@WKS-022 (v6.6) (sw-lic-srv01/27000 274), start 13:50:03
+13:51:28 (lmgrd) Ignoring duplicate vendor daemon sw_d
+13:51:28 (lmgrd) All vendor daemons are up
+13:52:38 (sw_d) TIMESTAMP 08/20 13:52:38
+13:52:44 (sw_d) QUEUED: "SolidWorks_MBD" jsmith@WKS-011
+13:52:59 (sw_d) TIMESTAMP 08/20 13:52:59
+13:53:05 (sw_d) OUT: "SolidWorks_Simulation_Professional" tlee@WKS-027 (v23.3) (sw-lic-srv01/27000 813), start 13:53:05
+13:53:50 (sw_d) TIMESTAMP 08/20 13:53:50
+13:53:56 (sw_d) OUT: "SolidWorks_CAM_Standard" pramesh@WKS-026 (v6.6) (sw-lic-srv01/27000 685), start 13:53:56
+13:54:10 (sw_d) TIMESTAMP 08/20 13:54:10
+13:54:17 (sw_d) OUT: "SolidWorks_MBD" vsingh@WKS-019 (v6.0) (sw-lic-srv01/27000 943), start 13:54:17
+13:54:39 (sw_d) TIMESTAMP 08/20 13:54:39
+13:54:44 (sw_d) OUT: "SolidWorks_Simulation_Standard" jsmith@WKS-019 (v17.9) (sw-lic-srv01/27000 183), start 13:54:44
+13:55:49 (sw_d) IN: "SolidWorks_Standard" tlee@WKS-003
+13:57:10 (sw_d) TIMESTAMP 08/20 13:57:10
+13:57:13 (sw_d) OUT: "SolidWorks_Inspection_Professional" nverma@WKS-025 (v13.6) (sw-lic-srv01/27000 478), start 13:57:13
+13:58:01 (sw_d) IN: "SolidWorks_Premium" lwang@WKS-029
+13:59:20 (sw_d) TIMESTAMP 08/20 13:59:20
+13:59:28 (sw_d) OUT: "SolidWorks_CAM_Standard" vsingh@BLD-04 (v6.6) (sw-lic-srv01/27000 452), start 13:59:28
+14:00:52 (sw_d) TIMESTAMP 08/20 14:00:52
+14:00:58 (sw_d) OUT: "SolidWorks_Professional" cjones@WKS-025 (v1.6) (sw-lic-srv01/27000 938), start 14:00:58
+14:02:13 (sw_d) IN: "SolidWorks_CAM_Standard" sgupta@WKS-038
+14:02:30 (sw_d) TIMESTAMP 08/20 14:02:30
+14:02:38 (sw_d) OUT: "SolidWorks_Professional" mchen@WKS-037 (v1.6) (sw-lic-srv01/27000 629), start 14:02:38
+14:02:38 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+14:03:48 (sw_d) TIMESTAMP 08/20 14:03:48
+14:03:50 (sw_d) OUT: "SolidWorks_Simulation_Standard" tlee@WKS-013 (v17.9) (sw-lic-srv01/27000 229), start 14:03:50
+14:04:56 (sw_d) TIMESTAMP 08/20 14:04:56
+14:05:00 (sw_d) OUT: "SolidWorks_CAM_Professional" cjones@WKS-039 (v19.4) (sw-lic-srv01/27000 364), start 14:05:00
+14:06:04 (sw_d) IN: "SolidWorks_Inspection_Professional" rpatel@WKS-006
+14:07:25 (sw_d) IN: "SolidWorks_CAM_Professional" cjones@WKS-039
+14:08:27 (sw_d) TIMESTAMP 08/20 14:08:27
+14:08:33 (sw_d) OUT: "SolidWorks_CAM_Professional" dwilson@WKS-037 (v19.4) (sw-lic-srv01/27000 702), start 14:08:33
+14:09:56 (sw_d) TIMESTAMP 08/20 14:09:56
+14:10:00 (sw_d) QUEUED: "SolidWorks_Electrical_Professional" cjones@WKS-035
+14:11:04 (sw_d) DENIED: "SolidWorks_PDM_CAD_Editor" pramesh@WKS-012 (No such feature exists)
+14:12:03 (sw_d) TIMESTAMP 08/20 14:12:03
+14:12:10 (sw_d) OUT: "SolidWorks_Composer" kbrown@WKS-016 (v6.5) (sw-lic-srv01/27000 150), start 14:12:10
+14:13:07 (sw_d) TIMESTAMP 08/20 14:13:07
+14:13:12 (sw_d) OUT: "SolidWorks_Electrical_Professional" rpatel@WKS-018 (v1.7) (sw-lic-srv01/27000 963), start 14:13:12
+14:13:37 (sw_d) TIMESTAMP 08/20 14:13:37
+14:13:44 (sw_d) OUT: "SolidWorks_Costing" ftaylor@WKS-021 (v17.2) (sw-lic-srv01/27000 375), start 14:13:44
+14:14:23 (sw_d) IN: "SolidWorks_Simulation_Standard" jsmith@WKS-019
+14:15:44 (sw_d) TIMESTAMP 08/20 14:15:44
+14:16:11 (sw_d) TIMESTAMP 08/20 14:16:11
+14:16:19 (sw_d) OUT: "SolidWorks_Routing" sgupta@WKS-009 (v6.5) (sw-lic-srv01/27000 899), start 14:16:19
+14:16:19 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
+14:16:54 (sw_d) TIMESTAMP 08/20 14:16:54
+14:16:56 (sw_d) OUT: "SolidWorks_Simulation_Professional" cjones@WKS-004 (v23.3) (sw-lic-srv01/27000 355), start 14:16:56
+14:17:51 (sw_d) TIMESTAMP 08/20 14:17:51
+14:17:57 (sw_d) QUEUED: "SolidWorks_Flow_Simulation" lwang@WKS-030
+14:18:07 (sw_d) TIMESTAMP 08/20 14:18:07
+14:18:15 (sw_d) OUT: "SolidWorks_PDM_CAD_Editor" akumar@WKS-029 (v14.6) (sw-lic-srv01/27000 281), start 14:18:15
+14:19:10 (sw_d) TIMESTAMP 08/20 14:19:10
+14:19:14 (sw_d) OUT: "SolidWorks_Flow_Simulation" kbrown@BLD-06 (v11.5) (sw-lic-srv01/27000 192), start 14:19:14
+14:19:32 (sw_d) TIMESTAMP 08/20 14:19:32
+14:19:35 (sw_d) OUT: "SolidWorks_Simulation_Professional" cjones@WKS-015 (v23.3) (sw-lic-srv01/27000 762), start 14:19:35
+14:20:42 (sw_d) IN: "SolidWorks_CAM_Professional" dwilson@WKS-037
+14:21:13 (sw_d) DENIED: "SolidWorks_Standard" tlee@WKS-017 (License server system does not support this feature)
+14:22:22 (sw_d) TIMESTAMP 08/20 14:22:22
+14:23:03 (sw_d) TIMESTAMP 08/20 14:23:03
+14:23:09 (sw_d) OUT: "SolidWorks_Electrical_Professional" jsmith@WKS-034 (v1.7) (sw-lic-srv01/27000 944), start 14:23:09
+14:23:24 (sw_d) IN: "SolidWorks_Composer" nverma@WKS-026
+14:24:11 (sw_d) TIMESTAMP 08/20 14:24:11
+14:24:15 (sw_d) OUT: "SolidWorks_CAM_Standard" hmoore@WKS-005 (v6.6) (sw-lic-srv01/27000 444), start 14:24:15
+14:25:03 (sw_d) DENIED: "SolidWorks_Electrical_Professional" tlee@WKS-010 (License server system does not support this feature)
+14:26:09 (sw_d) DENIED: "SolidWorks_CAM_Professional" kbrown@WKS-002 (License server system does not support this feature)
+14:26:57 (sw_d) TIMESTAMP 08/20 14:26:57
+14:27:16 (sw_d) IN: "SolidWorks_Routing" tlee@WKS-026
+14:27:59 (sw_d) DENIED: "SolidWorks_PDM_CAD_Editor" nverma@BLD-04 (No such feature exists)
+14:28:35 (sw_d) eDrawings_Professional: reserving 1 license(s) for "group" GROUP engineering
+14:29:47 (sw_d) TIMESTAMP 08/20 14:29:47
+14:29:50 (sw_d) OUT: "SolidWorks_Flow_Simulation" kbrown@WKS-036 (v11.5) (sw-lic-srv01/27000 881), start 14:29:50
+14:29:50 (lmgrd) LICENSE SERVER STATUS -- pool is healthy, 18 feature(s) active
