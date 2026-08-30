@@ -1,6 +1,6 @@
 # Scope
 
-Learning beginner-level Bash by building a data extraction, file organizer scripts.
+Learning beginner-level Bash by building a data extraction
 
 # Target audience
 
@@ -22,4 +22,3 @@ Before building anything, get hands-on with the syntax. This video covers the ba
 ## Projects
 
 - **Data Extraction** — extract data from a license log file into a CSV file.
-- **File Organizer** — move files into folders by their extension.
