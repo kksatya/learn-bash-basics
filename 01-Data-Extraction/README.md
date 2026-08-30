@@ -1,3 +1,5 @@
+# < Don't open Script unless you stuck at point or completed your code >
+
 After learning the basics from YouTube, let's build our first `Bash` script.
 
 Download the `.log` file attached in this repo and let's understand it. It's a SolidWorks license log file, the kind that sits on a license server (you don't need to know anything about the server itself). I used Claude to generate the sample log file.
