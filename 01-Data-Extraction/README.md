@@ -1,4 +1,4 @@
-# < Don't open Script unless you stuck at point or completed your code >
+#  Don't open Script unless you stuck at point or completed your code 
 
 After learning the basics from YouTube, let's build our first `Bash` script.
 
